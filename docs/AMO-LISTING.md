@@ -11,7 +11,7 @@ Use this file when submitting ReverseIMG to [addons.mozilla.org](https://addons.
 | Suggested slug | `reverseimg` |
 | Category | Photos, videos, and media (or the closest image/search category) |
 | License | MIT |
-| Support site | `https://github.com/shuriv` |
+| Support site | `https://github.com/shuriv/reverseimg` |
 | Source code | `https://github.com/shuriv/reverseimg` |
 | Privacy policy | `https://github.com/shuriv/reverseimg/blob/main/PRIVACY.md` |
 | Tags | reverse image search, image search, Google Lens, Bing, Yandex, TinEye, SauceNAO, privacy |

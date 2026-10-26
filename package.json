@@ -6,7 +6,7 @@
   "description": "ReverseIMG - reverse image search and keyword image search for Firefox.",
   "license": "MIT",
   "author": "matthew (https://github.com/shuriv)",
-  "homepage": "https://github.com/shuriv",
+  "homepage": "https://github.com/shuriv/reverseimg",
   "scripts": {
     "dev": "npm run version:sync && vite build --watch",
     "start": "npm run build && web-ext run --source-dir dist --watch-files dist",
