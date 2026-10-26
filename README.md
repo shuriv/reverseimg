@@ -82,7 +82,7 @@ npm run start
 | `npm run start` | Builds, then launches Firefox with `web-ext run`. |
 | `npm run build` | Development build with source maps. |
 | `npm run build:amo` | Clean AMO build without source maps or minification. |
-| `npm test` | Runs the unit tests. |
+| `npm test` | Runs the unit and DOM tests. |
 | `npm run typecheck` | Type-checks the TypeScript. |
 | `npm run lint` | Lints TypeScript and scripts. |
 | `npm run i18n:build` | Regenerates `public/_locales/*/messages.json` and localized privacy pages. |

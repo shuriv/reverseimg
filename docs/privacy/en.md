@@ -48,6 +48,6 @@ This policy applies to the ReverseIMG Firefox extension and its bundled pages. I
 
 ---
 
-This page is a translation. The English privacy policy in the source repository is the canonical version and governs if there is a conflict.
+The English privacy policy in the source repository is the canonical version and governs if there is a conflict.
 
 [Privacy policy (English)](../../PRIVACY.md)

@@ -163,6 +163,6 @@ export default {
   privacyContactBody:
     "Questions? Contact matthew on GitHub at https://github.com/shuriv.",
   privacyEnglishNote:
-    "This page is a translation. The English privacy policy in the source repository is the canonical version and governs if there is a conflict.",
+    "The English privacy policy in the source repository is the canonical version and governs if there is a conflict.",
   privacyBack: "Back to settings"
 };
