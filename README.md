@@ -2,9 +2,9 @@
 
 ReverseIMG is a Firefox extension for **reverse image search** and **keyword image search**. Right-click an image and send it to Google Lens, Bing, Yandex, TinEye, or SauceNAO. Open the toolbar popup to search Google Images, Bing Images, Yandex Images, DuckDuckGo, or Brave Images.
 
-Created by **matthew** — [github.com/shuriv](https://github.com/shuriv).
+Created by **matthew** — [github.com/shuriv](https://github.com/shuriv). Source: [github.com/shuriv/reverseimg](https://github.com/shuriv/reverseimg).
 
-> Status: `0.1.0`, ready for local testing and AMO submission. Not yet published.
+> Status: `0.1.0` is ready for AMO submission. The source and privacy policy are public on GitHub; the add-on listing has not been published yet.
 
 ## Features
 

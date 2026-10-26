@@ -343,6 +343,13 @@ https://github.com/shuriv/reverseimg/blob/main/PRIVACY.md
 
 If your default branch is called `master` instead of `main`, use `master` in the link.
 
+For this project, the repository is already public:
+
+```text
+https://github.com/shuriv/reverseimg
+https://github.com/shuriv/reverseimg/blob/main/PRIVACY.md
+```
+
 The privacy link must open a real page. Test it in a private window. If GitHub does not show it nicely, use GitHub Pages later.
 
 ---
