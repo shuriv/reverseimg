@@ -1,0 +1,446 @@
+{
+  "extensionDescription": {
+    "message": "Reverse-search any image or search by keyword with Google Lens, Bing, Yandex, TinEye and SauceNAO."
+  },
+  "popupTitle": {
+    "message": "ReverseIMG"
+  },
+  "tagline": {
+    "message": "Reverse image search for Firefox"
+  },
+  "modesLabel": {
+    "message": "ReverseIMG modes"
+  },
+  "optionsTitle": {
+    "message": "ReverseIMG Settings"
+  },
+  "optionsSubtitle": {
+    "message": "Choose how ReverseIMG searches and behaves."
+  },
+  "tabFind": {
+    "message": "Find images"
+  },
+  "tabReverse": {
+    "message": "Reverse search"
+  },
+  "findTitle": {
+    "message": "Search images"
+  },
+  "findPlaceholder": {
+    "message": "Search for images…"
+  },
+  "searchButton": {
+    "message": "Search"
+  },
+  "engineLabel": {
+    "message": "Search with"
+  },
+  "recentSearches": {
+    "message": "Recent searches"
+  },
+  "clearRecent": {
+    "message": "Clear"
+  },
+  "noRecent": {
+    "message": "No recent searches yet."
+  },
+  "removeRecent": {
+    "message": "Remove search"
+  },
+  "reverseTitle": {
+    "message": "Reverse image search"
+  },
+  "modeUpload": {
+    "message": "Upload image"
+  },
+  "modeUrl": {
+    "message": "Image URL"
+  },
+  "dropTitle": {
+    "message": "Drop an image here"
+  },
+  "dropSubtitle": {
+    "message": "or click to browse, paste from clipboard, or use an image URL"
+  },
+  "pasteHint": {
+    "message": "You can also press Ctrl+V"
+  },
+  "previewAlt": {
+    "message": "Selected image preview"
+  },
+  "removeImage": {
+    "message": "Remove image"
+  },
+  "imageUrlLabel": {
+    "message": "Image URL"
+  },
+  "imageUrlPlaceholder": {
+    "message": "https://example.com/photo.jpg"
+  },
+  "urlOnly": {
+    "message": "URL only"
+  },
+  "uploadsUpTo": {
+    "message": "Up to $1 MB"
+  },
+  "searchWith": {
+    "message": "Search with $1"
+  },
+  "privacyNote": {
+    "message": "Images are sent directly to the engine you choose."
+  },
+  "settingsButton": {
+    "message": "Settings"
+  },
+  "unsupportedFile": {
+    "message": "Please choose a JPEG, PNG, WebP, GIF, or AVIF image."
+  },
+  "fileTooLarge": {
+    "message": "That image is too large. The maximum size is $1 MB."
+  },
+  "invalidUrl": {
+    "message": "Please enter a valid http or https image URL."
+  },
+  "enterQuery": {
+    "message": "Type something to search for."
+  },
+  "selectImageFirst": {
+    "message": "Choose an image or paste an image URL first."
+  },
+  "uploadNotSupported": {
+    "message": "$1 cannot accept image uploads. Try another engine or use an image URL."
+  },
+  "searchFailed": {
+    "message": "Could not open the search. Please try again."
+  },
+  "atLeastOneEngine": {
+    "message": "Enable at least one engine."
+  },
+  "reverseEngines": {
+    "message": "Reverse image engines"
+  },
+  "reverseEnginesHelp": {
+    "message": "These appear when you right-click an image."
+  },
+  "engineOrderHint": {
+    "message": "Use the arrows to change order."
+  },
+  "keywordEngines": {
+    "message": "Keyword image engines"
+  },
+  "keywordEnginesHelp": {
+    "message": "These appear in the popup search box."
+  },
+  "behavior": {
+    "message": "Behavior"
+  },
+  "openInNewTab": {
+    "message": "Open results in a new tab"
+  },
+  "showContextSubmenu": {
+    "message": "Show the full engine submenu"
+  },
+  "showContextSubmenuHelp": {
+    "message": "If off, only the default reverse engine appears."
+  },
+  "rememberLastEngine": {
+    "message": "Remember the last engine I used"
+  },
+  "theme": {
+    "message": "Theme"
+  },
+  "themeSystem": {
+    "message": "Use system theme"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "language": {
+    "message": "Language"
+  },
+  "languageHelp": {
+    "message": "ReverseIMG uses Firefox's language. Change it in Firefox settings."
+  },
+  "languageFollowsFirefox": {
+    "message": "Follows Firefox"
+  },
+  "recent": {
+    "message": "Recent searches"
+  },
+  "recentHelp": {
+    "message": "Searches are stored only in this Firefox profile."
+  },
+  "clearRecentSearches": {
+    "message": "Clear recent searches"
+  },
+  "recentCleared": {
+    "message": "Recent searches cleared."
+  },
+  "backup": {
+    "message": "Backup and reset"
+  },
+  "backupHelp": {
+    "message": "Export a copy of your settings or import a previous backup."
+  },
+  "exportSettings": {
+    "message": "Export settings"
+  },
+  "importSettings": {
+    "message": "Import settings"
+  },
+  "resetSettings": {
+    "message": "Reset settings"
+  },
+  "resetConfirm": {
+    "message": "Reset every setting to its default value?"
+  },
+  "resetDone": {
+    "message": "Settings reset."
+  },
+  "importDone": {
+    "message": "Settings imported."
+  },
+  "importFailed": {
+    "message": "That file is not a valid ReverseIMG settings file."
+  },
+  "saved": {
+    "message": "Saved."
+  },
+  "saveFailed": {
+    "message": "Could not save settings. Please try again."
+  },
+  "loadFailed": {
+    "message": "Could not load settings. Please reopen this page."
+  },
+  "about": {
+    "message": "About"
+  },
+  "aboutText": {
+    "message": "ReverseIMG — created by matthew."
+  },
+  "aboutDescription": {
+    "message": "A privacy-friendly reverse image search and keyword image search tool for Firefox."
+  },
+  "github": {
+    "message": "GitHub"
+  },
+  "sourceCode": {
+    "message": "Source code"
+  },
+  "privacyPolicy": {
+    "message": "Privacy policy"
+  },
+  "version": {
+    "message": "Version"
+  },
+  "license": {
+    "message": "License"
+  },
+  "trademark": {
+    "message": "Engine names and trademarks belong to their respective owners."
+  },
+  "defaultEngine": {
+    "message": "Default"
+  },
+  "enabled": {
+    "message": "Enabled"
+  },
+  "moveUp": {
+    "message": "Move up"
+  },
+  "moveDown": {
+    "message": "Move down"
+  },
+  "menuSearchImage": {
+    "message": "Search image with $1"
+  },
+  "menuSearchImageWith": {
+    "message": "Search image with…"
+  },
+  "menuSearchSelection": {
+    "message": "Search selected text for images"
+  },
+  "uploadPreparing": {
+    "message": "Preparing your image…"
+  },
+  "uploadWait": {
+    "message": "This can take a few seconds."
+  },
+  "uploadTitle": {
+    "message": "Sending to $1…"
+  },
+  "uploadSending": {
+    "message": "Sending your image to $1…"
+  },
+  "uploadExpiredTitle": {
+    "message": "That image expired"
+  },
+  "uploadExpiredBody": {
+    "message": "Please close this tab and choose the image again."
+  },
+  "uploadMissingTitle": {
+    "message": "Image not found"
+  },
+  "uploadMissingBody": {
+    "message": "Please close this tab and try again."
+  },
+  "uploadUnsupportedTitle": {
+    "message": "This engine cannot take uploads"
+  },
+  "uploadUnsupportedBody": {
+    "message": "$1 can search image URLs, but cannot accept an uploaded file. Try Google Lens or Bing, or paste an image URL."
+  },
+  "uploadTooLargeTitle": {
+    "message": "Image too large"
+  },
+  "uploadTooLargeBody": {
+    "message": "The maximum size for $1 is $2 MB."
+  },
+  "uploadFailedTitle": {
+    "message": "Could not start the search"
+  },
+  "uploadFailedBody": {
+    "message": "Open $1 and upload the image there, or try another engine."
+  },
+  "uploadOpenEngine": {
+    "message": "Open $1"
+  },
+  "uploadBack": {
+    "message": "Go back"
+  },
+  "uploadSentTitle": {
+    "message": "Search sent"
+  },
+  "uploadSentBody": {
+    "message": "You can go back to ReverseIMG or open the engine again."
+  },
+  "errorTitle": {
+    "message": "Something went wrong"
+  },
+  "errorHelp": {
+    "message": "ReverseIMG could not start that search."
+  },
+  "errorUnknown": {
+    "message": "Please close this tab and try again."
+  },
+  "errorNoImageTitle": {
+    "message": "No image found"
+  },
+  "errorNoImageBody": {
+    "message": "ReverseIMG could not read that image. Try right-clicking a normal photo, or save the image and upload it from the popup."
+  },
+  "errorBlobTitle": {
+    "message": "Could not read this image"
+  },
+  "errorBlobBody": {
+    "message": "Firefox blocked access to this image. Save it and upload it from the ReverseIMG popup."
+  },
+  "errorUnsupportedTitle": {
+    "message": "This image type is not supported"
+  },
+  "errorUnsupportedBody": {
+    "message": "Save the image and upload it as JPEG, PNG, WebP, GIF, or AVIF."
+  },
+  "errorNoEngineTitle": {
+    "message": "Search engine unavailable"
+  },
+  "errorNoEngineBody": {
+    "message": "That engine is not enabled in ReverseIMG settings."
+  },
+  "errorNoUploadTitle": {
+    "message": "Upload not available"
+  },
+  "errorNoUploadBody": {
+    "message": "$1 can search images by URL, but cannot accept an uploaded image. Open the engine and paste the image URL, or try Google Lens or Bing."
+  },
+  "errorOpenSettings": {
+    "message": "Open settings"
+  },
+  "errorOpenEngine": {
+    "message": "Open $1"
+  },
+  "errorCloseTab": {
+    "message": "Close tab"
+  },
+  "privacyTitle": {
+    "message": "Privacy policy"
+  },
+  "privacyIntro": {
+    "message": "ReverseIMG is built to keep your searches private."
+  },
+  "privacyDataTitle": {
+    "message": "What ReverseIMG collects"
+  },
+  "privacyDataBody": {
+    "message": "Nothing. ReverseIMG has no accounts, analytics, advertising, or developer servers."
+  },
+  "privacyLocalTitle": {
+    "message": "What stays on your device"
+  },
+  "privacyLocalBody": {
+    "message": "Settings and recent searches stay in Firefox local storage. Temporary image data stays in IndexedDB for up to 15 minutes and is deleted automatically."
+  },
+  "privacyThirdPartyTitle": {
+    "message": "Where your searches go"
+  },
+  "privacyThirdPartyBody": {
+    "message": "When you start a search, your image or query is sent directly to the search engine you choose. That engine's privacy policy applies."
+  },
+  "privacyNoTrackingTitle": {
+    "message": "No tracking or selling"
+  },
+  "privacyNoTrackingBody": {
+    "message": "ReverseIMG does not track you, profile you, or sell data."
+  },
+  "privacyPermissionsTitle": {
+    "message": "Permissions"
+  },
+  "privacyPermissionsBody": {
+    "message": "ReverseIMG requests only menus, storage, activeTab, and scripting. menus adds the right-click items, storage saves your settings and recent searches, activeTab reads the image you explicitly right-clicked, and scripting reads blob: image data after you choose a search. ReverseIMG does not request host permissions and does not read pages in the background."
+  },
+  "privacyDeclarationTitle": {
+    "message": "AMO data collection declaration"
+  },
+  "privacyDeclarationBody": {
+    "message": "The add-on declares searchTerms and websiteContent to Mozilla Add-ons. These categories describe data sent directly to the search engine you choose. The developer does not receive or retain it."
+  },
+  "privacyRetentionTitle": {
+    "message": "Retention and deletion"
+  },
+  "privacyRetentionBody": {
+    "message": "Recent searches stay until you clear them or uninstall the extension. Temporary image entries are removed after the upload handoff or after 15 minutes. Settings stay until you reset them or uninstall. The developer has no server-side data to delete."
+  },
+  "privacyChildrenTitle": {
+    "message": "Children"
+  },
+  "privacyChildrenBody": {
+    "message": "ReverseIMG is a general-purpose search utility and is not directed at children. It does not knowingly collect personal information from anyone."
+  },
+  "privacyChangesTitle": {
+    "message": "Changes"
+  },
+  "privacyChangesBody": {
+    "message": "If this policy changes, the updated version will be published in the project repository and the extension privacy page, with a new date. Material changes may also be noted in the release notes."
+  },
+  "privacyScopeTitle": {
+    "message": "Scope"
+  },
+  "privacyScopeBody": {
+    "message": "This policy applies to the ReverseIMG Firefox extension and its bundled pages. It does not apply to the websites of Google, Microsoft, Yandex, TinEye, SauceNAO, DuckDuckGo, Brave, Mozilla, GitHub, or any other third party."
+  },
+  "privacyContactTitle": {
+    "message": "Contact"
+  },
+  "privacyContactBody": {
+    "message": "Questions? Contact matthew on GitHub at https://github.com/shuriv."
+  },
+  "privacyEnglishNote": {
+    "message": "This page is a translation. The English privacy policy in the source repository is the canonical version and governs if there is a conflict."
+  },
+  "privacyBack": {
+    "message": "Back to settings"
+  }
+}

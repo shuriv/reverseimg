@@ -1,0 +1,446 @@
+{
+  "extensionDescription": {
+    "message": "Google Lens, Bing, Yandex, TinEye और SauceNAO के साथ किसी भी छवि को रिवर्स-सर्च करें या कीवर्ड से छवि खोजें।"
+  },
+  "popupTitle": {
+    "message": "ReverseIMG"
+  },
+  "tagline": {
+    "message": "Firefox के लिए रिवर्स इमेज सर्च"
+  },
+  "modesLabel": {
+    "message": "ReverseIMG मोड"
+  },
+  "optionsTitle": {
+    "message": "ReverseIMG सेटिंग्स"
+  },
+  "optionsSubtitle": {
+    "message": "चुनें कि ReverseIMG कैसे खोजता और व्यवहार करता है।"
+  },
+  "tabFind": {
+    "message": "छवियाँ खोजें"
+  },
+  "tabReverse": {
+    "message": "रिवर्स सर्च"
+  },
+  "findTitle": {
+    "message": "छवियाँ खोजें"
+  },
+  "findPlaceholder": {
+    "message": "छवियाँ खोजें…"
+  },
+  "searchButton": {
+    "message": "खोजें"
+  },
+  "engineLabel": {
+    "message": "इससे खोजें"
+  },
+  "recentSearches": {
+    "message": "हाल की खोजें"
+  },
+  "clearRecent": {
+    "message": "साफ़ करें"
+  },
+  "noRecent": {
+    "message": "अभी कोई हाल की खोज नहीं।"
+  },
+  "removeRecent": {
+    "message": "खोज हटाएँ"
+  },
+  "reverseTitle": {
+    "message": "रिवर्स इमेज सर्च"
+  },
+  "modeUpload": {
+    "message": "छवि अपलोड करें"
+  },
+  "modeUrl": {
+    "message": "छवि URL"
+  },
+  "dropTitle": {
+    "message": "यहाँ छवि छोड़ें"
+  },
+  "dropSubtitle": {
+    "message": "या ब्राउज़ करने के लिए क्लिक करें, क्लिपबोर्ड से पेस्ट करें, या छवि URL का उपयोग करें"
+  },
+  "pasteHint": {
+    "message": "आप Ctrl+V भी दबा सकते हैं"
+  },
+  "previewAlt": {
+    "message": "चुनी गई छवि का पूर्वावलोकन"
+  },
+  "removeImage": {
+    "message": "छवि हटाएँ"
+  },
+  "imageUrlLabel": {
+    "message": "छवि URL"
+  },
+  "imageUrlPlaceholder": {
+    "message": "https://example.com/photo.jpg"
+  },
+  "urlOnly": {
+    "message": "केवल URL"
+  },
+  "uploadsUpTo": {
+    "message": "$1 MB तक"
+  },
+  "searchWith": {
+    "message": "$1 से खोजें"
+  },
+  "privacyNote": {
+    "message": "छवियाँ सीधे आपके चुने हुए सर्च इंजन को भेजी जाती हैं।"
+  },
+  "settingsButton": {
+    "message": "सेटिंग्स"
+  },
+  "unsupportedFile": {
+    "message": "कृपया JPEG, PNG, WebP, GIF या AVIF छवि चुनें।"
+  },
+  "fileTooLarge": {
+    "message": "यह छवि बहुत बड़ी है। अधिकतम आकार $1 MB है।"
+  },
+  "invalidUrl": {
+    "message": "कृपया मान्य http या https छवि URL दर्ज करें।"
+  },
+  "enterQuery": {
+    "message": "खोजने के लिए कुछ लिखें।"
+  },
+  "selectImageFirst": {
+    "message": "पहले छवि चुनें या छवि URL पेस्ट करें।"
+  },
+  "uploadNotSupported": {
+    "message": "$1 छवि अपलोड स्वीकार नहीं करता। दूसरा इंजन आज़माएँ या छवि URL का उपयोग करें।"
+  },
+  "searchFailed": {
+    "message": "खोज नहीं खोली जा सकी। कृपया पुनः प्रयास करें।"
+  },
+  "atLeastOneEngine": {
+    "message": "कम से कम एक इंजन सक्षम करें।"
+  },
+  "reverseEngines": {
+    "message": "रिवर्स इमेज इंजन"
+  },
+  "reverseEnginesHelp": {
+    "message": "छवि पर राइट-क्लिक करने पर दिखाई देते हैं।"
+  },
+  "engineOrderHint": {
+    "message": "क्रम बदलने के लिए तीरों का उपयोग करें।"
+  },
+  "keywordEngines": {
+    "message": "कीवर्ड इमेज इंजन"
+  },
+  "keywordEnginesHelp": {
+    "message": "पॉपअप खोज बॉक्स में दिखाई देते हैं।"
+  },
+  "behavior": {
+    "message": "व्यवहार"
+  },
+  "openInNewTab": {
+    "message": "परिणाम नए टैब में खोलें"
+  },
+  "showContextSubmenu": {
+    "message": "पूरा इंजन सबमेन्यू दिखाएँ"
+  },
+  "showContextSubmenuHelp": {
+    "message": "बंद होने पर केवल डिफ़ॉल्ट रिवर्स इंजन दिखाई देता है।"
+  },
+  "rememberLastEngine": {
+    "message": "पिछला उपयोग किया गया इंजन याद रखें"
+  },
+  "theme": {
+    "message": "थीम"
+  },
+  "themeSystem": {
+    "message": "सिस्टम थीम का उपयोग करें"
+  },
+  "themeLight": {
+    "message": "हल्का"
+  },
+  "themeDark": {
+    "message": "गहरा"
+  },
+  "language": {
+    "message": "भाषा"
+  },
+  "languageHelp": {
+    "message": "ReverseIMG Firefox की भाषा का उपयोग करता है। इसे Firefox सेटिंग्स में बदलें।"
+  },
+  "languageFollowsFirefox": {
+    "message": "Firefox के अनुसार"
+  },
+  "recent": {
+    "message": "हाल की खोजें"
+  },
+  "recentHelp": {
+    "message": "खोजें केवल इस Firefox प्रोफ़ाइल में संग्रहीत होती हैं।"
+  },
+  "clearRecentSearches": {
+    "message": "हाल की खोजें साफ़ करें"
+  },
+  "recentCleared": {
+    "message": "हाल की खोजें साफ़ की गईं।"
+  },
+  "backup": {
+    "message": "बैकअप और रीसेट"
+  },
+  "backupHelp": {
+    "message": "अपनी सेटिंग्स की प्रति निर्यात करें या पिछला बैकअप आयात करें।"
+  },
+  "exportSettings": {
+    "message": "सेटिंग्स निर्यात करें"
+  },
+  "importSettings": {
+    "message": "सेटिंग्स आयात करें"
+  },
+  "resetSettings": {
+    "message": "सेटिंग्स रीसेट करें"
+  },
+  "resetConfirm": {
+    "message": "सभी सेटिंग्स को उनके डिफ़ॉल्ट मान पर रीसेट करें?"
+  },
+  "resetDone": {
+    "message": "सेटिंग्स रीसेट की गईं।"
+  },
+  "importDone": {
+    "message": "सेटिंग्स आयात की गईं।"
+  },
+  "importFailed": {
+    "message": "यह फ़ाइल मान्य ReverseIMG सेटिंग्स फ़ाइल नहीं है।"
+  },
+  "saved": {
+    "message": "सहेजा गया।"
+  },
+  "saveFailed": {
+    "message": "सेटिंग्स सहेजी नहीं जा सकीं। कृपया पुनः प्रयास करें।"
+  },
+  "loadFailed": {
+    "message": "सेटिंग्स लोड नहीं हो सकीं। कृपया यह पृष्ठ फिर से खोलें।"
+  },
+  "about": {
+    "message": "परिचय"
+  },
+  "aboutText": {
+    "message": "ReverseIMG — matthew द्वारा बनाया गया।"
+  },
+  "aboutDescription": {
+    "message": "Firefox के लिए गोपनीयता-अनुकूल रिवर्स इमेज सर्च और कीवर्ड इमेज सर्च टूल।"
+  },
+  "github": {
+    "message": "GitHub"
+  },
+  "sourceCode": {
+    "message": "स्रोत कोड"
+  },
+  "privacyPolicy": {
+    "message": "गोपनीयता नीति"
+  },
+  "version": {
+    "message": "संस्करण"
+  },
+  "license": {
+    "message": "लाइसेंस"
+  },
+  "trademark": {
+    "message": "इंजनों के नाम और ट्रेडमार्क उनके संबंधित स्वामियों के हैं।"
+  },
+  "defaultEngine": {
+    "message": "डिफ़ॉल्ट"
+  },
+  "enabled": {
+    "message": "सक्षम"
+  },
+  "moveUp": {
+    "message": "ऊपर ले जाएँ"
+  },
+  "moveDown": {
+    "message": "नीचे ले जाएँ"
+  },
+  "menuSearchImage": {
+    "message": "$1 से छवि खोजें"
+  },
+  "menuSearchImageWith": {
+    "message": "इससे छवि खोजें…"
+  },
+  "menuSearchSelection": {
+    "message": "चयनित टेक्स्ट से छवियाँ खोजें"
+  },
+  "uploadPreparing": {
+    "message": "आपकी छवि तैयार की जा रही है…"
+  },
+  "uploadWait": {
+    "message": "इसमें कुछ सेकंड लग सकते हैं।"
+  },
+  "uploadTitle": {
+    "message": "$1 पर भेजा जा रहा है…"
+  },
+  "uploadSending": {
+    "message": "आपकी छवि $1 पर भेजी जा रही है…"
+  },
+  "uploadExpiredTitle": {
+    "message": "वह छवि समाप्त हो गई"
+  },
+  "uploadExpiredBody": {
+    "message": "कृपया यह टैब बंद करें और छवि फिर से चुनें।"
+  },
+  "uploadMissingTitle": {
+    "message": "छवि नहीं मिली"
+  },
+  "uploadMissingBody": {
+    "message": "कृपया यह टैब बंद करें और पुनः प्रयास करें।"
+  },
+  "uploadUnsupportedTitle": {
+    "message": "यह इंजन अपलोड स्वीकार नहीं करता"
+  },
+  "uploadUnsupportedBody": {
+    "message": "$1 छवि URL खोज सकता है, लेकिन अपलोड की गई फ़ाइल स्वीकार नहीं करता। Google Lens या Bing आज़माएँ, या छवि URL पेस्ट करें।"
+  },
+  "uploadTooLargeTitle": {
+    "message": "छवि बहुत बड़ी"
+  },
+  "uploadTooLargeBody": {
+    "message": "$1 के लिए अधिकतम आकार $2 MB है।"
+  },
+  "uploadFailedTitle": {
+    "message": "खोज शुरू नहीं हो सकी"
+  },
+  "uploadFailedBody": {
+    "message": "$1 खोलें और वहाँ छवि अपलोड करें, या दूसरा इंजन आज़माएँ।"
+  },
+  "uploadOpenEngine": {
+    "message": "$1 खोलें"
+  },
+  "uploadBack": {
+    "message": "वापस जाएँ"
+  },
+  "uploadSentTitle": {
+    "message": "खोज भेजी गई"
+  },
+  "uploadSentBody": {
+    "message": "आप ReverseIMG पर वापस जा सकते हैं या इंजन फिर से खोल सकते हैं।"
+  },
+  "errorTitle": {
+    "message": "कुछ गलत हो गया"
+  },
+  "errorHelp": {
+    "message": "ReverseIMG वह खोज शुरू नहीं कर सका।"
+  },
+  "errorUnknown": {
+    "message": "कृपया यह टैब बंद करें और पुनः प्रयास करें।"
+  },
+  "errorNoImageTitle": {
+    "message": "कोई छवि नहीं मिली"
+  },
+  "errorNoImageBody": {
+    "message": "ReverseIMG वह छवि नहीं पढ़ सका। सामान्य फ़ोटो पर राइट-क्लिक करके देखें, या छवि सहेजें और पॉपअप से अपलोड करें।"
+  },
+  "errorBlobTitle": {
+    "message": "यह छवि पढ़ी नहीं जा सकी"
+  },
+  "errorBlobBody": {
+    "message": "Firefox ने इस छवि तक पहुँच रोक दी। इसे सहेजें और ReverseIMG पॉपअप से अपलोड करें।"
+  },
+  "errorUnsupportedTitle": {
+    "message": "यह छवि प्रकार समर्थित नहीं है"
+  },
+  "errorUnsupportedBody": {
+    "message": "छवि सहेजें और इसे JPEG, PNG, WebP, GIF या AVIF के रूप में अपलोड करें।"
+  },
+  "errorNoEngineTitle": {
+    "message": "सर्च इंजन उपलब्ध नहीं"
+  },
+  "errorNoEngineBody": {
+    "message": "वह इंजन ReverseIMG सेटिंग्स में सक्षम नहीं है।"
+  },
+  "errorNoUploadTitle": {
+    "message": "अपलोड उपलब्ध नहीं"
+  },
+  "errorNoUploadBody": {
+    "message": "$1 URL से छवियाँ खोज सकता है, लेकिन अपलोड की गई छवि स्वीकार नहीं करता। इंजन खोलें और छवि URL पेस्ट करें, या Google Lens या Bing आज़माएँ।"
+  },
+  "errorOpenSettings": {
+    "message": "सेटिंग्स खोलें"
+  },
+  "errorOpenEngine": {
+    "message": "$1 खोलें"
+  },
+  "errorCloseTab": {
+    "message": "टैब बंद करें"
+  },
+  "privacyTitle": {
+    "message": "गोपनीयता नीति"
+  },
+  "privacyIntro": {
+    "message": "ReverseIMG आपकी खोजों को निजी रखने के लिए बनाया गया है।"
+  },
+  "privacyDataTitle": {
+    "message": "ReverseIMG क्या एकत्र करता है"
+  },
+  "privacyDataBody": {
+    "message": "कुछ नहीं। ReverseIMG में कोई खाता, एनालिटिक्स, विज्ञापन या डेवलपर सर्वर नहीं है।"
+  },
+  "privacyLocalTitle": {
+    "message": "आपके डिवाइस पर क्या रहता है"
+  },
+  "privacyLocalBody": {
+    "message": "सेटिंग्स और हाल की खोजें Firefox स्थानीय संग्रहण में रहती हैं। अस्थायी छवि डेटा IndexedDB में 15 मिनट तक रहता है और स्वतः हट जाता है।"
+  },
+  "privacyThirdPartyTitle": {
+    "message": "आपकी खोजें कहाँ जाती हैं"
+  },
+  "privacyThirdPartyBody": {
+    "message": "जब आप खोज शुरू करते हैं, आपकी छवि या क्वेरी सीधे आपके चुने हुए सर्च इंजन को भेजी जाती है। उस इंजन की गोपनीयता नीति लागू होती है।"
+  },
+  "privacyNoTrackingTitle": {
+    "message": "कोई ट्रैकिंग या बिक्री नहीं"
+  },
+  "privacyNoTrackingBody": {
+    "message": "ReverseIMG आपको ट्रैक नहीं करता, प्रोफ़ाइल नहीं बनाता और डेटा नहीं बेचता।"
+  },
+  "privacyPermissionsTitle": {
+    "message": "अनुमतियाँ"
+  },
+  "privacyPermissionsBody": {
+    "message": "ReverseIMG केवल menus, storage, activeTab और scripting का अनुरोध करता है। menus राइट-क्लिक आइटम जोड़ता है, storage आपकी सेटिंग्स और हाल की खोजें सहेजता है, activeTab उस छवि को पढ़ता है जिस पर आपने स्पष्ट रूप से राइट-क्लिक किया, और scripting खोज चुनने के बाद blob: छवि डेटा पढ़ता है। ReverseIMG होस्ट अनुमतियों का अनुरोध नहीं करता और पृष्ठभूमि में पेज नहीं पढ़ता।"
+  },
+  "privacyDeclarationTitle": {
+    "message": "AMO डेटा संग्रह घोषणा"
+  },
+  "privacyDeclarationBody": {
+    "message": "यह ऐड-ऑन Mozilla Add-ons के लिए searchTerms और websiteContent घोषित करता है। ये श्रेणियाँ उस डेटा का वर्णन करती हैं जो सीधे आपके चुने हुए सर्च इंजन को भेजा जाता है। डेवलपर इसे प्राप्त या सहेजता नहीं है।"
+  },
+  "privacyRetentionTitle": {
+    "message": "प्रतिधारण और हटाना"
+  },
+  "privacyRetentionBody": {
+    "message": "हाल की खोजें तब तक रहती हैं जब तक आप उन्हें साफ़ नहीं करते या एक्सटेंशन अनइंस्टॉल नहीं करते। अस्थायी छवि प्रविष्टियाँ अपलोड हैंडऑफ़ के बाद या 15 मिनट बाद हटा दी जाती हैं। सेटिंग्स रीसेट या अनइंस्टॉल तक रहती हैं। डेवलपर के पास हटाने के लिए कोई सर्वर-साइड डेटा नहीं है।"
+  },
+  "privacyChildrenTitle": {
+    "message": "बच्चे"
+  },
+  "privacyChildrenBody": {
+    "message": "ReverseIMG एक सामान्य-उद्देश्य वाला खोज उपकरण है और बच्चों के लिए नहीं है। यह किसी से जानबूझकर व्यक्तिगत जानकारी एकत्र नहीं करता।"
+  },
+  "privacyChangesTitle": {
+    "message": "परिवर्तन"
+  },
+  "privacyChangesBody": {
+    "message": "यदि यह नीति बदलती है, तो अद्यतन संस्करण परियोजना रिपॉज़िटरी और एक्सटेंशन के गोपनीयता पृष्ठ पर नई तिथि के साथ प्रकाशित किया जाएगा। महत्वपूर्ण परिवर्तन रिलीज़ नोट्स में भी दर्ज किए जा सकते हैं।"
+  },
+  "privacyScopeTitle": {
+    "message": "दायरा"
+  },
+  "privacyScopeBody": {
+    "message": "यह नीति ReverseIMG Firefox एक्सटेंशन और उसके बंडल किए गए पृष्ठों पर लागू होती है। यह Google, Microsoft, Yandex, TinEye, SauceNAO, DuckDuckGo, Brave, Mozilla, GitHub या किसी अन्य तृतीय पक्ष की वेबसाइटों पर लागू नहीं होती।"
+  },
+  "privacyContactTitle": {
+    "message": "संपर्क"
+  },
+  "privacyContactBody": {
+    "message": "प्रश्न? GitHub पर matthew से संपर्क करें: https://github.com/shuriv."
+  },
+  "privacyEnglishNote": {
+    "message": "यह पृष्ठ एक अनुवाद है। स्रोत रिपॉज़िटरी में अंग्रेज़ी गोपनीयता नीति आधिकारिक संस्करण है और विरोध होने पर लागू होती है।"
+  },
+  "privacyBack": {
+    "message": "सेटिंग्स पर वापस जाएँ"
+  }
+}

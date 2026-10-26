@@ -1,0 +1,446 @@
+{
+  "extensionDescription": {
+    "message": "Обратный поиск изображений или поиск по ключевым словам в Google Lens, Bing, Yandex, TinEye и SauceNAO."
+  },
+  "popupTitle": {
+    "message": "ReverseIMG"
+  },
+  "tagline": {
+    "message": "Обратный поиск изображений для Firefox"
+  },
+  "modesLabel": {
+    "message": "Режимы ReverseIMG"
+  },
+  "optionsTitle": {
+    "message": "Настройки ReverseIMG"
+  },
+  "optionsSubtitle": {
+    "message": "Выберите, как ReverseIMG выполняет поиск и работает."
+  },
+  "tabFind": {
+    "message": "Найти изображения"
+  },
+  "tabReverse": {
+    "message": "Обратный поиск"
+  },
+  "findTitle": {
+    "message": "Поиск изображений"
+  },
+  "findPlaceholder": {
+    "message": "Поиск изображений…"
+  },
+  "searchButton": {
+    "message": "Найти"
+  },
+  "engineLabel": {
+    "message": "Искать с помощью"
+  },
+  "recentSearches": {
+    "message": "Недавние запросы"
+  },
+  "clearRecent": {
+    "message": "Очистить"
+  },
+  "noRecent": {
+    "message": "Недавних запросов пока нет."
+  },
+  "removeRecent": {
+    "message": "Удалить запрос"
+  },
+  "reverseTitle": {
+    "message": "Обратный поиск изображений"
+  },
+  "modeUpload": {
+    "message": "Загрузить изображение"
+  },
+  "modeUrl": {
+    "message": "URL изображения"
+  },
+  "dropTitle": {
+    "message": "Перетащите изображение сюда"
+  },
+  "dropSubtitle": {
+    "message": "или нажмите, чтобы выбрать файл, вставьте из буфера обмена или укажите URL"
+  },
+  "pasteHint": {
+    "message": "Можно также нажать Ctrl+V"
+  },
+  "previewAlt": {
+    "message": "Предпросмотр выбранного изображения"
+  },
+  "removeImage": {
+    "message": "Удалить изображение"
+  },
+  "imageUrlLabel": {
+    "message": "URL изображения"
+  },
+  "imageUrlPlaceholder": {
+    "message": "https://example.com/photo.jpg"
+  },
+  "urlOnly": {
+    "message": "Только URL"
+  },
+  "uploadsUpTo": {
+    "message": "До $1 МБ"
+  },
+  "searchWith": {
+    "message": "Искать с помощью $1"
+  },
+  "privacyNote": {
+    "message": "Изображения отправляются напрямую в выбранную вами систему поиска."
+  },
+  "settingsButton": {
+    "message": "Настройки"
+  },
+  "unsupportedFile": {
+    "message": "Выберите изображение JPEG, PNG, WebP, GIF или AVIF."
+  },
+  "fileTooLarge": {
+    "message": "Изображение слишком большое. Максимальный размер — $1 МБ."
+  },
+  "invalidUrl": {
+    "message": "Введите корректный URL изображения http или https."
+  },
+  "enterQuery": {
+    "message": "Введите поисковый запрос."
+  },
+  "selectImageFirst": {
+    "message": "Сначала выберите изображение или вставьте URL изображения."
+  },
+  "uploadNotSupported": {
+    "message": "$1 не принимает загрузку изображений. Попробуйте другую систему или используйте URL изображения."
+  },
+  "searchFailed": {
+    "message": "Не удалось открыть поиск. Попробуйте ещё раз."
+  },
+  "atLeastOneEngine": {
+    "message": "Включите хотя бы одну систему поиска."
+  },
+  "reverseEngines": {
+    "message": "Системы обратного поиска"
+  },
+  "reverseEnginesHelp": {
+    "message": "Появляются при щелчке правой кнопкой по изображению."
+  },
+  "engineOrderHint": {
+    "message": "Используйте стрелки, чтобы изменить порядок."
+  },
+  "keywordEngines": {
+    "message": "Системы поиска по ключевым словам"
+  },
+  "keywordEnginesHelp": {
+    "message": "Появляются в поле поиска всплывающего окна."
+  },
+  "behavior": {
+    "message": "Поведение"
+  },
+  "openInNewTab": {
+    "message": "Открывать результаты в новой вкладке"
+  },
+  "showContextSubmenu": {
+    "message": "Показывать полное подменю систем"
+  },
+  "showContextSubmenuHelp": {
+    "message": "Если выключено, отображается только система обратного поиска по умолчанию."
+  },
+  "rememberLastEngine": {
+    "message": "Запоминать последнюю использованную систему"
+  },
+  "theme": {
+    "message": "Тема"
+  },
+  "themeSystem": {
+    "message": "Как в системе"
+  },
+  "themeLight": {
+    "message": "Светлая"
+  },
+  "themeDark": {
+    "message": "Тёмная"
+  },
+  "language": {
+    "message": "Язык"
+  },
+  "languageHelp": {
+    "message": "ReverseIMG использует язык Firefox. Измените его в настройках Firefox."
+  },
+  "languageFollowsFirefox": {
+    "message": "Как в Firefox"
+  },
+  "recent": {
+    "message": "Недавние запросы"
+  },
+  "recentHelp": {
+    "message": "Запросы хранятся только в этом профиле Firefox."
+  },
+  "clearRecentSearches": {
+    "message": "Очистить недавние запросы"
+  },
+  "recentCleared": {
+    "message": "Недавние запросы очищены."
+  },
+  "backup": {
+    "message": "Резервная копия и сброс"
+  },
+  "backupHelp": {
+    "message": "Экспортируйте настройки или импортируйте предыдущую резервную копию."
+  },
+  "exportSettings": {
+    "message": "Экспортировать настройки"
+  },
+  "importSettings": {
+    "message": "Импортировать настройки"
+  },
+  "resetSettings": {
+    "message": "Сбросить настройки"
+  },
+  "resetConfirm": {
+    "message": "Сбросить все настройки до значений по умолчанию?"
+  },
+  "resetDone": {
+    "message": "Настройки сброшены."
+  },
+  "importDone": {
+    "message": "Настройки импортированы."
+  },
+  "importFailed": {
+    "message": "Этот файл не является корректным файлом настроек ReverseIMG."
+  },
+  "saved": {
+    "message": "Сохранено."
+  },
+  "saveFailed": {
+    "message": "Не удалось сохранить настройки. Попробуйте ещё раз."
+  },
+  "loadFailed": {
+    "message": "Не удалось загрузить настройки. Откройте страницу снова."
+  },
+  "about": {
+    "message": "О программе"
+  },
+  "aboutText": {
+    "message": "ReverseIMG — создано matthew."
+  },
+  "aboutDescription": {
+    "message": "Инструмент обратного поиска изображений и поиска по ключевым словам для Firefox с заботой о приватности."
+  },
+  "github": {
+    "message": "GitHub"
+  },
+  "sourceCode": {
+    "message": "Исходный код"
+  },
+  "privacyPolicy": {
+    "message": "Политика конфиденциальности"
+  },
+  "version": {
+    "message": "Версия"
+  },
+  "license": {
+    "message": "Лицензия"
+  },
+  "trademark": {
+    "message": "Названия и товарные знаки систем принадлежат их владельцам."
+  },
+  "defaultEngine": {
+    "message": "По умолчанию"
+  },
+  "enabled": {
+    "message": "Включено"
+  },
+  "moveUp": {
+    "message": "Переместить вверх"
+  },
+  "moveDown": {
+    "message": "Переместить вниз"
+  },
+  "menuSearchImage": {
+    "message": "Искать изображение с помощью $1"
+  },
+  "menuSearchImageWith": {
+    "message": "Искать изображение с помощью…"
+  },
+  "menuSearchSelection": {
+    "message": "Искать изображения по выделенному тексту"
+  },
+  "uploadPreparing": {
+    "message": "Подготовка изображения…"
+  },
+  "uploadWait": {
+    "message": "Это может занять несколько секунд."
+  },
+  "uploadTitle": {
+    "message": "Отправка в $1…"
+  },
+  "uploadSending": {
+    "message": "Отправка изображения в $1…"
+  },
+  "uploadExpiredTitle": {
+    "message": "Срок действия изображения истёк"
+  },
+  "uploadExpiredBody": {
+    "message": "Закройте эту вкладку и выберите изображение снова."
+  },
+  "uploadMissingTitle": {
+    "message": "Изображение не найдено"
+  },
+  "uploadMissingBody": {
+    "message": "Закройте эту вкладку и попробуйте снова."
+  },
+  "uploadUnsupportedTitle": {
+    "message": "Эта система не принимает загрузки"
+  },
+  "uploadUnsupportedBody": {
+    "message": "$1 умеет искать по URL изображений, но не принимает загруженные файлы. Попробуйте Google Lens или Bing либо вставьте URL изображения."
+  },
+  "uploadTooLargeTitle": {
+    "message": "Изображение слишком большое"
+  },
+  "uploadTooLargeBody": {
+    "message": "Максимальный размер для $1 — $2 МБ."
+  },
+  "uploadFailedTitle": {
+    "message": "Не удалось начать поиск"
+  },
+  "uploadFailedBody": {
+    "message": "Откройте $1 и загрузите изображение там или выберите другую систему."
+  },
+  "uploadOpenEngine": {
+    "message": "Открыть $1"
+  },
+  "uploadBack": {
+    "message": "Назад"
+  },
+  "uploadSentTitle": {
+    "message": "Поиск отправлен"
+  },
+  "uploadSentBody": {
+    "message": "Можно вернуться в ReverseIMG или снова открыть систему поиска."
+  },
+  "errorTitle": {
+    "message": "Что-то пошло не так"
+  },
+  "errorHelp": {
+    "message": "ReverseIMG не удалось начать этот поиск."
+  },
+  "errorUnknown": {
+    "message": "Закройте эту вкладку и попробуйте снова."
+  },
+  "errorNoImageTitle": {
+    "message": "Изображение не найдено"
+  },
+  "errorNoImageBody": {
+    "message": "ReverseIMG не удалось прочитать изображение. Попробуйте щёлкнуть правой кнопкой по обычной фотографии или сохраните изображение и загрузите его из всплывающего окна."
+  },
+  "errorBlobTitle": {
+    "message": "Не удалось прочитать изображение"
+  },
+  "errorBlobBody": {
+    "message": "Firefox заблокировал доступ к изображению. Сохраните его и загрузите из всплывающего окна ReverseIMG."
+  },
+  "errorUnsupportedTitle": {
+    "message": "Этот тип изображения не поддерживается"
+  },
+  "errorUnsupportedBody": {
+    "message": "Сохраните изображение и загрузите его в формате JPEG, PNG, WebP, GIF или AVIF."
+  },
+  "errorNoEngineTitle": {
+    "message": "Система поиска недоступна"
+  },
+  "errorNoEngineBody": {
+    "message": "Эта система не включена в настройках ReverseIMG."
+  },
+  "errorNoUploadTitle": {
+    "message": "Загрузка недоступна"
+  },
+  "errorNoUploadBody": {
+    "message": "$1 умеет искать изображения по URL, но не принимает загруженные изображения. Откройте систему и вставьте URL изображения или попробуйте Google Lens либо Bing."
+  },
+  "errorOpenSettings": {
+    "message": "Открыть настройки"
+  },
+  "errorOpenEngine": {
+    "message": "Открыть $1"
+  },
+  "errorCloseTab": {
+    "message": "Закрыть вкладку"
+  },
+  "privacyTitle": {
+    "message": "Политика конфиденциальности"
+  },
+  "privacyIntro": {
+    "message": "ReverseIMG создан для приватного поиска."
+  },
+  "privacyDataTitle": {
+    "message": "Что собирает ReverseIMG"
+  },
+  "privacyDataBody": {
+    "message": "Ничего. У ReverseIMG нет аккаунтов, аналитики, рекламы и серверов разработчика."
+  },
+  "privacyLocalTitle": {
+    "message": "Что остаётся на устройстве"
+  },
+  "privacyLocalBody": {
+    "message": "Настройки и недавние запросы хранятся в локальном хранилище Firefox. Временные данные изображений хранятся в IndexedDB до 15 минут и удаляются автоматически."
+  },
+  "privacyThirdPartyTitle": {
+    "message": "Куда отправляются запросы"
+  },
+  "privacyThirdPartyBody": {
+    "message": "При запуске поиска изображение или запрос отправляются напрямую в выбранную систему поиска. Применяется её политика конфиденциальности."
+  },
+  "privacyNoTrackingTitle": {
+    "message": "Без слежки и продажи данных"
+  },
+  "privacyNoTrackingBody": {
+    "message": "ReverseIMG не отслеживает вас, не составляет профили и не продаёт данные."
+  },
+  "privacyPermissionsTitle": {
+    "message": "Разрешения"
+  },
+  "privacyPermissionsBody": {
+    "message": "ReverseIMG запрашивает только menus, storage, activeTab и scripting. menus добавляет пункты правого щелчка, storage сохраняет настройки и недавние запросы, activeTab читает изображение, по которому вы явно щёлкнули, а scripting читает данные blob: после выбора поиска. ReverseIMG не запрашивает разрешения на доступ к сайтам и не читает страницы в фоновом режиме."
+  },
+  "privacyDeclarationTitle": {
+    "message": "Декларация сбора данных для AMO"
+  },
+  "privacyDeclarationBody": {
+    "message": "Дополнение объявляет searchTerms и websiteContent для Mozilla Add-ons. Эти категории описывают данные, которые отправляются напрямую в выбранную систему поиска. Разработчик не получает и не хранит их."
+  },
+  "privacyRetentionTitle": {
+    "message": "Хранение и удаление"
+  },
+  "privacyRetentionBody": {
+    "message": "Недавние запросы хранятся, пока вы не очистите их или не удалите дополнение. Временные записи изображений удаляются после передачи на загрузку или через 15 минут. Настройки хранятся до сброса или удаления. У разработчика нет серверных данных для удаления."
+  },
+  "privacyChildrenTitle": {
+    "message": "Дети"
+  },
+  "privacyChildrenBody": {
+    "message": "ReverseIMG — универсальная поисковая утилита, не предназначенная для детей. Он сознательно не собирает личные данные."
+  },
+  "privacyChangesTitle": {
+    "message": "Изменения"
+  },
+  "privacyChangesBody": {
+    "message": "При изменении политики обновлённая версия будет опубликована в репозитории проекта и на странице конфиденциальности расширения с новой датой. Существенные изменения могут быть отмечены в примечаниях к выпуску."
+  },
+  "privacyScopeTitle": {
+    "message": "Область действия"
+  },
+  "privacyScopeBody": {
+    "message": "Политика применяется к расширению ReverseIMG для Firefox и его встроенным страницам. Она не применяется к сайтам Google, Microsoft, Yandex, TinEye, SauceNAO, DuckDuckGo, Brave, Mozilla, GitHub и другим третьим сторонам."
+  },
+  "privacyContactTitle": {
+    "message": "Контакты"
+  },
+  "privacyContactBody": {
+    "message": "Вопросы? Свяжитесь с matthew на GitHub: https://github.com/shuriv."
+  },
+  "privacyEnglishNote": {
+    "message": "Эта страница — перевод. Политика конфиденциальности на английском языке в исходном репозитории является канонической и имеет преимущественную силу при расхождениях."
+  },
+  "privacyBack": {
+    "message": "Вернуться к настройкам"
+  }
+}

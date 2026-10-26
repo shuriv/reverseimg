@@ -1,0 +1,446 @@
+{
+  "extensionDescription": {
+    "message": "使用 Google Lens、Bing、Yandex、TinEye 和 SauceNAO 进行图片反向搜索或关键词图片搜索。"
+  },
+  "popupTitle": {
+    "message": "ReverseIMG"
+  },
+  "tagline": {
+    "message": "Firefox 图片反向搜索"
+  },
+  "modesLabel": {
+    "message": "ReverseIMG 模式"
+  },
+  "optionsTitle": {
+    "message": "ReverseIMG 设置"
+  },
+  "optionsSubtitle": {
+    "message": "选择 ReverseIMG 的搜索方式和行为。"
+  },
+  "tabFind": {
+    "message": "查找图片"
+  },
+  "tabReverse": {
+    "message": "反向搜索"
+  },
+  "findTitle": {
+    "message": "搜索图片"
+  },
+  "findPlaceholder": {
+    "message": "搜索图片…"
+  },
+  "searchButton": {
+    "message": "搜索"
+  },
+  "engineLabel": {
+    "message": "搜索引擎"
+  },
+  "recentSearches": {
+    "message": "最近搜索"
+  },
+  "clearRecent": {
+    "message": "清除"
+  },
+  "noRecent": {
+    "message": "还没有最近搜索。"
+  },
+  "removeRecent": {
+    "message": "删除搜索"
+  },
+  "reverseTitle": {
+    "message": "图片反向搜索"
+  },
+  "modeUpload": {
+    "message": "上传图片"
+  },
+  "modeUrl": {
+    "message": "图片 URL"
+  },
+  "dropTitle": {
+    "message": "将图片拖放到这里"
+  },
+  "dropSubtitle": {
+    "message": "或点击浏览、从剪贴板粘贴，或使用图片 URL"
+  },
+  "pasteHint": {
+    "message": "也可以按 Ctrl+V"
+  },
+  "previewAlt": {
+    "message": "所选图片预览"
+  },
+  "removeImage": {
+    "message": "移除图片"
+  },
+  "imageUrlLabel": {
+    "message": "图片 URL"
+  },
+  "imageUrlPlaceholder": {
+    "message": "https://example.com/photo.jpg"
+  },
+  "urlOnly": {
+    "message": "仅支持 URL"
+  },
+  "uploadsUpTo": {
+    "message": "最大 $1 MB"
+  },
+  "searchWith": {
+    "message": "使用 $1 搜索"
+  },
+  "privacyNote": {
+    "message": "图片会直接发送到你选择的搜索引擎。"
+  },
+  "settingsButton": {
+    "message": "设置"
+  },
+  "unsupportedFile": {
+    "message": "请选择 JPEG、PNG、WebP、GIF 或 AVIF 图片。"
+  },
+  "fileTooLarge": {
+    "message": "图片太大。最大大小为 $1 MB。"
+  },
+  "invalidUrl": {
+    "message": "请输入有效的 http 或 https 图片 URL。"
+  },
+  "enterQuery": {
+    "message": "请输入要搜索的内容。"
+  },
+  "selectImageFirst": {
+    "message": "请先选择图片或粘贴图片 URL。"
+  },
+  "uploadNotSupported": {
+    "message": "$1 不支持上传图片。请尝试其他搜索引擎或使用图片 URL。"
+  },
+  "searchFailed": {
+    "message": "无法打开搜索。请重试。"
+  },
+  "atLeastOneEngine": {
+    "message": "请至少启用一个搜索引擎。"
+  },
+  "reverseEngines": {
+    "message": "图片反向搜索引擎"
+  },
+  "reverseEnginesHelp": {
+    "message": "右键单击图片时显示。"
+  },
+  "engineOrderHint": {
+    "message": "使用箭头调整顺序。"
+  },
+  "keywordEngines": {
+    "message": "关键词图片搜索引擎"
+  },
+  "keywordEnginesHelp": {
+    "message": "显示在弹出窗口的搜索框中。"
+  },
+  "behavior": {
+    "message": "行为"
+  },
+  "openInNewTab": {
+    "message": "在新标签页中打开结果"
+  },
+  "showContextSubmenu": {
+    "message": "显示完整的搜索引擎子菜单"
+  },
+  "showContextSubmenuHelp": {
+    "message": "关闭后只显示默认的反向搜索引擎。"
+  },
+  "rememberLastEngine": {
+    "message": "记住上次使用的搜索引擎"
+  },
+  "theme": {
+    "message": "主题"
+  },
+  "themeSystem": {
+    "message": "跟随系统主题"
+  },
+  "themeLight": {
+    "message": "浅色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "language": {
+    "message": "语言"
+  },
+  "languageHelp": {
+    "message": "ReverseIMG 使用 Firefox 的语言。请在 Firefox 设置中更改。"
+  },
+  "languageFollowsFirefox": {
+    "message": "跟随 Firefox"
+  },
+  "recent": {
+    "message": "最近搜索"
+  },
+  "recentHelp": {
+    "message": "搜索记录只保存在此 Firefox 配置文件中。"
+  },
+  "clearRecentSearches": {
+    "message": "清除最近搜索"
+  },
+  "recentCleared": {
+    "message": "最近搜索已清除。"
+  },
+  "backup": {
+    "message": "备份与重置"
+  },
+  "backupHelp": {
+    "message": "导出设置副本或导入之前的备份。"
+  },
+  "exportSettings": {
+    "message": "导出设置"
+  },
+  "importSettings": {
+    "message": "导入设置"
+  },
+  "resetSettings": {
+    "message": "重置设置"
+  },
+  "resetConfirm": {
+    "message": "将所有设置恢复为默认值？"
+  },
+  "resetDone": {
+    "message": "设置已重置。"
+  },
+  "importDone": {
+    "message": "设置已导入。"
+  },
+  "importFailed": {
+    "message": "该文件不是有效的 ReverseIMG 设置文件。"
+  },
+  "saved": {
+    "message": "已保存。"
+  },
+  "saveFailed": {
+    "message": "无法保存设置。请重试。"
+  },
+  "loadFailed": {
+    "message": "无法加载设置。请重新打开此页面。"
+  },
+  "about": {
+    "message": "关于"
+  },
+  "aboutText": {
+    "message": "ReverseIMG — 由 matthew 创建。"
+  },
+  "aboutDescription": {
+    "message": "适用于 Firefox 的注重隐私的图片反向搜索和关键词图片搜索工具。"
+  },
+  "github": {
+    "message": "GitHub"
+  },
+  "sourceCode": {
+    "message": "源代码"
+  },
+  "privacyPolicy": {
+    "message": "隐私政策"
+  },
+  "version": {
+    "message": "版本"
+  },
+  "license": {
+    "message": "许可证"
+  },
+  "trademark": {
+    "message": "搜索引擎名称和商标属于其各自所有者。"
+  },
+  "defaultEngine": {
+    "message": "默认"
+  },
+  "enabled": {
+    "message": "已启用"
+  },
+  "moveUp": {
+    "message": "上移"
+  },
+  "moveDown": {
+    "message": "下移"
+  },
+  "menuSearchImage": {
+    "message": "使用 $1 搜索图片"
+  },
+  "menuSearchImageWith": {
+    "message": "使用以下引擎搜索图片…"
+  },
+  "menuSearchSelection": {
+    "message": "搜索所选文本的图片"
+  },
+  "uploadPreparing": {
+    "message": "正在准备图片…"
+  },
+  "uploadWait": {
+    "message": "这可能需要几秒钟。"
+  },
+  "uploadTitle": {
+    "message": "正在发送到 $1…"
+  },
+  "uploadSending": {
+    "message": "正在将图片发送到 $1…"
+  },
+  "uploadExpiredTitle": {
+    "message": "图片已过期"
+  },
+  "uploadExpiredBody": {
+    "message": "请关闭此标签页并重新选择图片。"
+  },
+  "uploadMissingTitle": {
+    "message": "未找到图片"
+  },
+  "uploadMissingBody": {
+    "message": "请关闭此标签页并重试。"
+  },
+  "uploadUnsupportedTitle": {
+    "message": "此搜索引擎不支持上传"
+  },
+  "uploadUnsupportedBody": {
+    "message": "$1 可以搜索图片 URL，但不接受上传的文件。请尝试 Google Lens 或 Bing，或粘贴图片 URL。"
+  },
+  "uploadTooLargeTitle": {
+    "message": "图片太大"
+  },
+  "uploadTooLargeBody": {
+    "message": "$1 的最大大小为 $2 MB。"
+  },
+  "uploadFailedTitle": {
+    "message": "无法开始搜索"
+  },
+  "uploadFailedBody": {
+    "message": "请打开 $1 并在那里上传图片，或尝试其他搜索引擎。"
+  },
+  "uploadOpenEngine": {
+    "message": "打开 $1"
+  },
+  "uploadBack": {
+    "message": "返回"
+  },
+  "uploadSentTitle": {
+    "message": "搜索已发送"
+  },
+  "uploadSentBody": {
+    "message": "你可以返回 ReverseIMG 或再次打开搜索引擎。"
+  },
+  "errorTitle": {
+    "message": "出错了"
+  },
+  "errorHelp": {
+    "message": "ReverseIMG 无法开始该搜索。"
+  },
+  "errorUnknown": {
+    "message": "请关闭此标签页并重试。"
+  },
+  "errorNoImageTitle": {
+    "message": "未找到图片"
+  },
+  "errorNoImageBody": {
+    "message": "ReverseIMG 无法读取该图片。请尝试右键单击普通照片，或保存图片并从弹出窗口上传。"
+  },
+  "errorBlobTitle": {
+    "message": "无法读取此图片"
+  },
+  "errorBlobBody": {
+    "message": "Firefox 阻止了对该图片的访问。请保存图片并从 ReverseIMG 弹出窗口上传。"
+  },
+  "errorUnsupportedTitle": {
+    "message": "不支持此图片类型"
+  },
+  "errorUnsupportedBody": {
+    "message": "请保存图片并以 JPEG、PNG、WebP、GIF 或 AVIF 格式上传。"
+  },
+  "errorNoEngineTitle": {
+    "message": "搜索引擎不可用"
+  },
+  "errorNoEngineBody": {
+    "message": "该搜索引擎未在 ReverseIMG 设置中启用。"
+  },
+  "errorNoUploadTitle": {
+    "message": "无法上传"
+  },
+  "errorNoUploadBody": {
+    "message": "$1 可以通过 URL 搜索图片，但不接受上传的图片。请打开该搜索引擎并粘贴图片 URL，或尝试 Google Lens 或 Bing。"
+  },
+  "errorOpenSettings": {
+    "message": "打开设置"
+  },
+  "errorOpenEngine": {
+    "message": "打开 $1"
+  },
+  "errorCloseTab": {
+    "message": "关闭标签页"
+  },
+  "privacyTitle": {
+    "message": "隐私政策"
+  },
+  "privacyIntro": {
+    "message": "ReverseIMG 旨在让你的搜索保持私密。"
+  },
+  "privacyDataTitle": {
+    "message": "ReverseIMG 收集什么"
+  },
+  "privacyDataBody": {
+    "message": "没有。ReverseIMG 没有账户、分析、广告或开发者服务器。"
+  },
+  "privacyLocalTitle": {
+    "message": "设备上保留什么"
+  },
+  "privacyLocalBody": {
+    "message": "设置和最近搜索保存在 Firefox 本地存储中。临时图片数据在 IndexedDB 中最多保留 15 分钟，并会自动删除。"
+  },
+  "privacyThirdPartyTitle": {
+    "message": "搜索发送到哪里"
+  },
+  "privacyThirdPartyBody": {
+    "message": "当你开始搜索时，图片或查询会直接发送到你选择的搜索引擎。适用该搜索引擎的隐私政策。"
+  },
+  "privacyNoTrackingTitle": {
+    "message": "不跟踪、不出售"
+  },
+  "privacyNoTrackingBody": {
+    "message": "ReverseIMG 不会跟踪你、分析你或出售数据。"
+  },
+  "privacyPermissionsTitle": {
+    "message": "权限"
+  },
+  "privacyPermissionsBody": {
+    "message": "ReverseIMG 仅请求 menus、storage、activeTab 和 scripting。menus 添加右键菜单项，storage 保存设置和最近搜索，activeTab 读取你明确右键点击的图片，scripting 在你选择搜索后读取 blob: 图片数据。ReverseIMG 不请求网站访问权限，也不会在后台读取页面。"
+  },
+  "privacyDeclarationTitle": {
+    "message": "AMO 数据收集声明"
+  },
+  "privacyDeclarationBody": {
+    "message": "该扩展向 Mozilla Add-ons 声明 searchTerms 和 websiteContent。这些类别描述直接发送到你选择的搜索引擎的数据。开发者不会接收或保留这些数据。"
+  },
+  "privacyRetentionTitle": {
+    "message": "保留与删除"
+  },
+  "privacyRetentionBody": {
+    "message": "最近搜索会一直保留，直到你清除它们或卸载扩展。临时图片条目在完成上传交接后或 15 分钟后删除。设置会保留到你重置或卸载。开发者没有服务器端数据可删除。"
+  },
+  "privacyChildrenTitle": {
+    "message": "儿童"
+  },
+  "privacyChildrenBody": {
+    "message": "ReverseIMG 是通用搜索工具，并非面向儿童。它不会有意收集任何人的个人信息。"
+  },
+  "privacyChangesTitle": {
+    "message": "变更"
+  },
+  "privacyChangesBody": {
+    "message": "如果本政策发生变化，更新版本将发布在项目仓库和扩展隐私页面上，并注明新日期。重大变更也可能在发布说明中注明。"
+  },
+  "privacyScopeTitle": {
+    "message": "适用范围"
+  },
+  "privacyScopeBody": {
+    "message": "本政策适用于 ReverseIMG Firefox 扩展及其内置页面。它不适用于 Google、Microsoft、Yandex、TinEye、SauceNAO、DuckDuckGo、Brave、Mozilla、GitHub 或任何其他第三方的网站。"
+  },
+  "privacyContactTitle": {
+    "message": "联系"
+  },
+  "privacyContactBody": {
+    "message": "有问题？请在 GitHub 上联系 matthew：https://github.com/shuriv。"
+  },
+  "privacyEnglishNote": {
+    "message": "本页面是翻译版本。源仓库中的英文隐私政策是权威版本，如有冲突以英文版本为准。"
+  },
+  "privacyBack": {
+    "message": "返回设置"
+  }
+}

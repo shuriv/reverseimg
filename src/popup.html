@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReverseIMG</title>
+    <link rel="stylesheet" href="./styles/base.css" />
+  </head>
+  <body class="popup-body">
+    <main class="app">
+      <header class="topbar">
+        <div class="brand">
+          <img class="brand-icon" src="/icons/icon-32.png" alt="" />
+          <div>
+            <h1>ReverseIMG</h1>
+            <p data-i18n="tagline">Reverse image search for Firefox</p>
+          </div>
+        </div>
+        <button
+          id="open-options"
+          class="icon-button"
+          type="button"
+          data-i18n-title="settingsButton"
+          data-i18n-aria-label="settingsButton"
+        >
+          <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true">
+            <path
+              fill="currentColor"
+              d="M19.14 12.94c.04-.31.06-.63.06-.94s-.02-.63-.06-.94l2.03-1.58a.5.5 0 0 0 .12-.64l-1.92-3.32a.5.5 0 0 0-.61-.22l-2.39.96a7.03 7.03 0 0 0-1.63-.95l-.36-2.54a.5.5 0 0 0-.5-.42h-3.84a.5.5 0 0 0-.5.42l-.36 2.54c-.59.24-1.13.56-1.63.95l-2.39-.96a.5.5 0 0 0-.61.22L2.73 8.84a.5.5 0 0 0 .12.64l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58a.5.5 0 0 0-.12.64l1.92 3.32c.14.24.42.33.61.22l2.39-.96c.5.39 1.04.71 1.63.95l.36 2.54c.04.24.25.42.5.42h3.84c.25 0 .46-.18.5-.42l.36-2.54c.59-.24 1.13-.56 1.63-.95l2.39.96c.19.11.47.02.61-.22l1.92-3.32a.5.5 0 0 0-.12-.64l-2.03-1.58ZM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7Z"
+            />
+          </svg>
+        </button>
+      </header>
+
+      <nav
+        class="tabs"
+        role="tablist"
+        aria-label="ReverseIMG modes"
+        data-i18n-aria-label="modesLabel"
+      >
+        <button
+          id="tab-find"
+          class="tab is-active"
+          type="button"
+          role="tab"
+          aria-selected="true"
+          aria-controls="panel-find"
+          data-tab="find"
+        >
+          <span data-i18n="tabFind">Find images</span>
+        </button>
+        <button
+          id="tab-reverse"
+          class="tab"
+          type="button"
+          role="tab"
+          aria-selected="false"
+          aria-controls="panel-reverse"
+          data-tab="reverse"
+        >
+          <span data-i18n="tabReverse">Reverse search</span>
+        </button>
+      </nav>
+
+      <section
+        id="panel-find"
+        class="panel"
+        role="tabpanel"
+        aria-labelledby="tab-find"
+      >
+        <form id="find-form" class="find-form">
+          <label class="sr-only" for="find-input" data-i18n="findTitle">
+            Search images
+          </label>
+          <div class="input-row">
+            <svg class="input-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M10.5 3a7.5 7.5 0 0 1 5.9 12.14l4.23 4.23-1.41 1.41-4.23-4.23A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"
+              />
+            </svg>
+            <input
+              id="find-input"
+              type="search"
+              autocomplete="off"
+              spellcheck="false"
+              data-i18n-placeholder="findPlaceholder"
+              placeholder="Search for images…"
+            />
+            <button class="primary" type="submit" data-i18n="searchButton">
+              Search
+            </button>
+          </div>
+        </form>
+
+        <div class="section-label" data-i18n="engineLabel">Search with</div>
+        <div
+          id="keyword-engines"
+          class="engine-chips"
+          role="radiogroup"
+          data-i18n-aria-label="engineLabel"
+        ></div>
+
+        <div class="section-heading">
+          <span data-i18n="recentSearches">Recent searches</span>
+          <button id="clear-recent" class="link-button" type="button" data-i18n="clearRecent">
+            Clear
+          </button>
+        </div>
+        <ul id="recent-list" class="recent-list"></ul>
+      </section>
+
+      <section
+        id="panel-reverse"
+        class="panel hidden"
+        role="tabpanel"
+        aria-labelledby="tab-reverse"
+      >
+        <div class="mode-switch" role="radiogroup" data-i18n-aria-label="reverseTitle">
+          <button
+            id="mode-upload"
+            class="mode is-active"
+            type="button"
+            role="radio"
+            aria-checked="true"
+            data-mode="upload"
+            data-i18n="modeUpload"
+          >
+            Upload image
+          </button>
+          <button
+            id="mode-url"
+            class="mode"
+            type="button"
+            role="radio"
+            aria-checked="false"
+            data-mode="url"
+            data-i18n="modeUrl"
+          >
+            Image URL
+          </button>
+        </div>
+
+        <div id="upload-mode">
+          <div
+            id="drop-zone"
+            class="drop-zone"
+            tabindex="0"
+            role="button"
+            aria-describedby="drop-description"
+          >
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Zm0 16H5l4.5-6 3 4 2-2.5L19 19ZM8.5 10A1.5 1.5 0 1 1 8.5 7a1.5 1.5 0 0 1 0 3Z"
+              />
+            </svg>
+            <strong data-i18n="dropTitle">Drop an image here</strong>
+            <span id="drop-description" data-i18n="dropSubtitle">
+              or click to browse, paste from clipboard, or use an image URL
+            </span>
+            <span class="hint" data-i18n="pasteHint">You can also press Ctrl+V</span>
+          </div>
+          <input
+            id="file-input"
+            class="hidden"
+            type="file"
+            accept="image/jpeg,image/png,image/webp,image/gif,image/avif"
+          />
+          <div id="preview-card" class="preview-card hidden">
+            <img id="preview-image" data-i18n-alt="previewAlt" alt="Selected image preview" />
+            <div class="preview-meta">
+              <strong id="preview-name"></strong>
+              <span id="preview-size"></span>
+            </div>
+            <button
+              id="remove-image"
+              class="icon-button small"
+              type="button"
+              data-i18n-title="removeImage"
+              data-i18n-aria-label="removeImage"
+            >
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+                <path
+                  fill="currentColor"
+                  d="M18.3 5.71 12 12l6.3 6.29-1.41 1.42L10.59 13.4 4.3 19.71 2.89 18.3 9.17 12 2.89 5.71 4.3 4.29l6.29 6.3 6.3-6.3 1.41 1.42Z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div id="url-mode" class="hidden">
+          <label class="field-label" for="image-url" data-i18n="imageUrlLabel">
+            Image URL
+          </label>
+          <input
+            id="image-url"
+            type="url"
+            autocomplete="off"
+            spellcheck="false"
+            data-i18n-placeholder="imageUrlPlaceholder"
+            placeholder="https://example.com/photo.jpg"
+          />
+        </div>
+
+        <div class="section-label" data-i18n="engineLabel">Search with</div>
+        <div
+          id="reverse-engines"
+          class="engine-grid"
+          role="radiogroup"
+          data-i18n-aria-label="engineLabel"
+        ></div>
+        <p id="reverse-note" class="note hidden"></p>
+        <button id="reverse-search" class="primary wide" type="button">
+          <span data-i18n="searchButton">Search</span>
+        </button>
+        <p class="privacy-note" data-i18n="privacyNote">
+          Images are sent directly to the engine you choose.
+        </p>
+      </section>
+
+      <div id="status" class="status hidden" role="status" aria-live="polite"></div>
+    </main>
+    <script type="module" src="./popup/main.ts"></script>
+  </body>
+</html>

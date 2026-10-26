@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReverseIMG</title>
+    <link rel="stylesheet" href="./styles/base.css" />
+  </head>
+  <body class="page-body">
+    <main class="page narrow">
+      <header class="page-header centered">
+        <img class="brand-icon" src="/icons/icon-48.png" alt="" />
+        <div>
+          <h1 id="page-title" data-i18n="uploadPreparing">Preparing your image…</h1>
+          <p id="page-subtitle" data-i18n="uploadWait">This can take a few seconds.</p>
+        </div>
+      </header>
+
+      <section class="card status-card" aria-live="polite">
+        <div id="spinner" class="spinner" aria-hidden="true"></div>
+        <h2 id="status-title" data-i18n="uploadPreparing">Preparing your image…</h2>
+        <p id="status-body"></p>
+        <div id="actions" class="actions hidden"></div>
+      </section>
+
+      <div id="form-host" class="form-host"></div>
+      <p class="fineprint" data-i18n="privacyNote">
+        Images are sent directly to the engine you choose.
+      </p>
+    </main>
+    <script type="module" src="./upload/main.ts"></script>
+  </body>
+</html>

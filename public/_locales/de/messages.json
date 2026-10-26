@@ -1,0 +1,446 @@
+{
+  "extensionDescription": {
+    "message": "Bilder per Rückwärtssuche oder Stichwortsuche mit Google Lens, Bing, Yandex, TinEye und SauceNAO suchen."
+  },
+  "popupTitle": {
+    "message": "ReverseIMG"
+  },
+  "tagline": {
+    "message": "Rückwärtssuche für Bilder in Firefox"
+  },
+  "modesLabel": {
+    "message": "ReverseIMG-Modi"
+  },
+  "optionsTitle": {
+    "message": "ReverseIMG-Einstellungen"
+  },
+  "optionsSubtitle": {
+    "message": "Lege fest, wie ReverseIMG sucht und arbeitet."
+  },
+  "tabFind": {
+    "message": "Bilder finden"
+  },
+  "tabReverse": {
+    "message": "Rückwärtssuche"
+  },
+  "findTitle": {
+    "message": "Bilder suchen"
+  },
+  "findPlaceholder": {
+    "message": "Bilder suchen…"
+  },
+  "searchButton": {
+    "message": "Suchen"
+  },
+  "engineLabel": {
+    "message": "Suchen mit"
+  },
+  "recentSearches": {
+    "message": "Letzte Suchen"
+  },
+  "clearRecent": {
+    "message": "Löschen"
+  },
+  "noRecent": {
+    "message": "Noch keine letzten Suchen."
+  },
+  "removeRecent": {
+    "message": "Suche entfernen"
+  },
+  "reverseTitle": {
+    "message": "Bild-Rückwärtssuche"
+  },
+  "modeUpload": {
+    "message": "Bild hochladen"
+  },
+  "modeUrl": {
+    "message": "Bild-URL"
+  },
+  "dropTitle": {
+    "message": "Bild hier ablegen"
+  },
+  "dropSubtitle": {
+    "message": "oder klicken zum Auswählen, aus der Zwischenablage einfügen oder eine Bild-URL verwenden"
+  },
+  "pasteHint": {
+    "message": "Du kannst auch Strg+V drücken"
+  },
+  "previewAlt": {
+    "message": "Vorschau des ausgewählten Bildes"
+  },
+  "removeImage": {
+    "message": "Bild entfernen"
+  },
+  "imageUrlLabel": {
+    "message": "Bild-URL"
+  },
+  "imageUrlPlaceholder": {
+    "message": "https://example.com/photo.jpg"
+  },
+  "urlOnly": {
+    "message": "Nur URL"
+  },
+  "uploadsUpTo": {
+    "message": "Bis zu $1 MB"
+  },
+  "searchWith": {
+    "message": "Mit $1 suchen"
+  },
+  "privacyNote": {
+    "message": "Bilder werden direkt an die gewählte Suchmaschine gesendet."
+  },
+  "settingsButton": {
+    "message": "Einstellungen"
+  },
+  "unsupportedFile": {
+    "message": "Bitte wähle ein Bild im Format JPEG, PNG, WebP, GIF oder AVIF."
+  },
+  "fileTooLarge": {
+    "message": "Das Bild ist zu groß. Die maximale Größe beträgt $1 MB."
+  },
+  "invalidUrl": {
+    "message": "Bitte gib eine gültige Bild-URL mit http oder https ein."
+  },
+  "enterQuery": {
+    "message": "Gib einen Suchbegriff ein."
+  },
+  "selectImageFirst": {
+    "message": "Wähle zuerst ein Bild oder füge eine Bild-URL ein."
+  },
+  "uploadNotSupported": {
+    "message": "$1 akzeptiert keine Bild-Uploads. Versuche eine andere Suchmaschine oder verwende eine Bild-URL."
+  },
+  "searchFailed": {
+    "message": "Die Suche konnte nicht geöffnet werden. Bitte versuche es erneut."
+  },
+  "atLeastOneEngine": {
+    "message": "Aktiviere mindestens eine Suchmaschine."
+  },
+  "reverseEngines": {
+    "message": "Rückwärtssuchmaschinen"
+  },
+  "reverseEnginesHelp": {
+    "message": "Erscheinen beim Rechtsklick auf ein Bild."
+  },
+  "engineOrderHint": {
+    "message": "Mit den Pfeilen änderst du die Reihenfolge."
+  },
+  "keywordEngines": {
+    "message": "Stichwort-Suchmaschinen"
+  },
+  "keywordEnginesHelp": {
+    "message": "Erscheinen im Suchfeld des Popups."
+  },
+  "behavior": {
+    "message": "Verhalten"
+  },
+  "openInNewTab": {
+    "message": "Ergebnisse in einem neuen Tab öffnen"
+  },
+  "showContextSubmenu": {
+    "message": "Vollständiges Suchmaschinen-Untermenü anzeigen"
+  },
+  "showContextSubmenuHelp": {
+    "message": "Wenn deaktiviert, erscheint nur die Standard-Rückwärtssuchmaschine."
+  },
+  "rememberLastEngine": {
+    "message": "Letzte verwendete Suchmaschine merken"
+  },
+  "theme": {
+    "message": "Design"
+  },
+  "themeSystem": {
+    "message": "Systemdesign verwenden"
+  },
+  "themeLight": {
+    "message": "Hell"
+  },
+  "themeDark": {
+    "message": "Dunkel"
+  },
+  "language": {
+    "message": "Sprache"
+  },
+  "languageHelp": {
+    "message": "ReverseIMG verwendet die Sprache von Firefox. Ändere sie in den Firefox-Einstellungen."
+  },
+  "languageFollowsFirefox": {
+    "message": "Folgt Firefox"
+  },
+  "recent": {
+    "message": "Letzte Suchen"
+  },
+  "recentHelp": {
+    "message": "Suchen werden nur in diesem Firefox-Profil gespeichert."
+  },
+  "clearRecentSearches": {
+    "message": "Letzte Suchen löschen"
+  },
+  "recentCleared": {
+    "message": "Letzte Suchen gelöscht."
+  },
+  "backup": {
+    "message": "Sicherung und Zurücksetzen"
+  },
+  "backupHelp": {
+    "message": "Exportiere eine Kopie deiner Einstellungen oder importiere eine frühere Sicherung."
+  },
+  "exportSettings": {
+    "message": "Einstellungen exportieren"
+  },
+  "importSettings": {
+    "message": "Einstellungen importieren"
+  },
+  "resetSettings": {
+    "message": "Einstellungen zurücksetzen"
+  },
+  "resetConfirm": {
+    "message": "Alle Einstellungen auf ihre Standardwerte zurücksetzen?"
+  },
+  "resetDone": {
+    "message": "Einstellungen zurückgesetzt."
+  },
+  "importDone": {
+    "message": "Einstellungen importiert."
+  },
+  "importFailed": {
+    "message": "Diese Datei ist keine gültige ReverseIMG-Einstellungsdatei."
+  },
+  "saved": {
+    "message": "Gespeichert."
+  },
+  "saveFailed": {
+    "message": "Einstellungen konnten nicht gespeichert werden. Bitte versuche es erneut."
+  },
+  "loadFailed": {
+    "message": "Einstellungen konnten nicht geladen werden. Öffne diese Seite erneut."
+  },
+  "about": {
+    "message": "Über"
+  },
+  "aboutText": {
+    "message": "ReverseIMG — erstellt von matthew."
+  },
+  "aboutDescription": {
+    "message": "Ein datenschutzfreundliches Werkzeug für Bild-Rückwärtssuche und Stichwortsuche in Firefox."
+  },
+  "github": {
+    "message": "GitHub"
+  },
+  "sourceCode": {
+    "message": "Quellcode"
+  },
+  "privacyPolicy": {
+    "message": "Datenschutzerklärung"
+  },
+  "version": {
+    "message": "Version"
+  },
+  "license": {
+    "message": "Lizenz"
+  },
+  "trademark": {
+    "message": "Namen und Marken der Suchmaschinen gehören ihren jeweiligen Inhabern."
+  },
+  "defaultEngine": {
+    "message": "Standard"
+  },
+  "enabled": {
+    "message": "Aktiviert"
+  },
+  "moveUp": {
+    "message": "Nach oben"
+  },
+  "moveDown": {
+    "message": "Nach unten"
+  },
+  "menuSearchImage": {
+    "message": "Bild mit $1 suchen"
+  },
+  "menuSearchImageWith": {
+    "message": "Bild suchen mit…"
+  },
+  "menuSearchSelection": {
+    "message": "Ausgewählten Text nach Bildern durchsuchen"
+  },
+  "uploadPreparing": {
+    "message": "Bild wird vorbereitet…"
+  },
+  "uploadWait": {
+    "message": "Das kann einige Sekunden dauern."
+  },
+  "uploadTitle": {
+    "message": "Senden an $1…"
+  },
+  "uploadSending": {
+    "message": "Bild wird an $1 gesendet…"
+  },
+  "uploadExpiredTitle": {
+    "message": "Dieses Bild ist abgelaufen"
+  },
+  "uploadExpiredBody": {
+    "message": "Schließe diesen Tab und wähle das Bild erneut."
+  },
+  "uploadMissingTitle": {
+    "message": "Bild nicht gefunden"
+  },
+  "uploadMissingBody": {
+    "message": "Schließe diesen Tab und versuche es erneut."
+  },
+  "uploadUnsupportedTitle": {
+    "message": "Diese Suchmaschine akzeptiert keine Uploads"
+  },
+  "uploadUnsupportedBody": {
+    "message": "$1 kann Bild-URLs durchsuchen, akzeptiert aber keine hochgeladenen Dateien. Versuche Google Lens oder Bing oder füge eine Bild-URL ein."
+  },
+  "uploadTooLargeTitle": {
+    "message": "Bild zu groß"
+  },
+  "uploadTooLargeBody": {
+    "message": "Die maximale Größe für $1 beträgt $2 MB."
+  },
+  "uploadFailedTitle": {
+    "message": "Suche konnte nicht gestartet werden"
+  },
+  "uploadFailedBody": {
+    "message": "Öffne $1 und lade das Bild dort hoch, oder versuche eine andere Suchmaschine."
+  },
+  "uploadOpenEngine": {
+    "message": "$1 öffnen"
+  },
+  "uploadBack": {
+    "message": "Zurück"
+  },
+  "uploadSentTitle": {
+    "message": "Suche gesendet"
+  },
+  "uploadSentBody": {
+    "message": "Du kannst zu ReverseIMG zurückkehren oder die Suchmaschine erneut öffnen."
+  },
+  "errorTitle": {
+    "message": "Etwas ist schiefgelaufen"
+  },
+  "errorHelp": {
+    "message": "ReverseIMG konnte diese Suche nicht starten."
+  },
+  "errorUnknown": {
+    "message": "Schließe diesen Tab und versuche es erneut."
+  },
+  "errorNoImageTitle": {
+    "message": "Kein Bild gefunden"
+  },
+  "errorNoImageBody": {
+    "message": "ReverseIMG konnte dieses Bild nicht lesen. Klicke mit der rechten Maustaste auf ein normales Foto oder speichere das Bild und lade es über das Popup hoch."
+  },
+  "errorBlobTitle": {
+    "message": "Bild konnte nicht gelesen werden"
+  },
+  "errorBlobBody": {
+    "message": "Firefox hat den Zugriff auf dieses Bild blockiert. Speichere es und lade es über das ReverseIMG-Popup hoch."
+  },
+  "errorUnsupportedTitle": {
+    "message": "Dieser Bildtyp wird nicht unterstützt"
+  },
+  "errorUnsupportedBody": {
+    "message": "Speichere das Bild und lade es als JPEG, PNG, WebP, GIF oder AVIF hoch."
+  },
+  "errorNoEngineTitle": {
+    "message": "Suchmaschine nicht verfügbar"
+  },
+  "errorNoEngineBody": {
+    "message": "Diese Suchmaschine ist in den ReverseIMG-Einstellungen nicht aktiviert."
+  },
+  "errorNoUploadTitle": {
+    "message": "Upload nicht verfügbar"
+  },
+  "errorNoUploadBody": {
+    "message": "$1 kann Bilder per URL durchsuchen, akzeptiert aber keine hochgeladenen Bilder. Öffne die Suchmaschine und füge die Bild-URL ein, oder versuche Google Lens oder Bing."
+  },
+  "errorOpenSettings": {
+    "message": "Einstellungen öffnen"
+  },
+  "errorOpenEngine": {
+    "message": "$1 öffnen"
+  },
+  "errorCloseTab": {
+    "message": "Tab schließen"
+  },
+  "privacyTitle": {
+    "message": "Datenschutzerklärung"
+  },
+  "privacyIntro": {
+    "message": "ReverseIMG wurde entwickelt, um deine Suchen privat zu halten."
+  },
+  "privacyDataTitle": {
+    "message": "Was ReverseIMG sammelt"
+  },
+  "privacyDataBody": {
+    "message": "Nichts. ReverseIMG hat keine Konten, Analyse, Werbung oder Entwicklerserver."
+  },
+  "privacyLocalTitle": {
+    "message": "Was auf deinem Gerät bleibt"
+  },
+  "privacyLocalBody": {
+    "message": "Einstellungen und letzte Suchen bleiben im lokalen Speicher von Firefox. Temporäre Bilddaten bleiben bis zu 15 Minuten in IndexedDB und werden automatisch gelöscht."
+  },
+  "privacyThirdPartyTitle": {
+    "message": "Wohin deine Suchen gehen"
+  },
+  "privacyThirdPartyBody": {
+    "message": "Wenn du eine Suche startest, werden dein Bild oder deine Anfrage direkt an die gewählte Suchmaschine gesendet. Es gilt die Datenschutzerklärung dieser Suchmaschine."
+  },
+  "privacyNoTrackingTitle": {
+    "message": "Kein Tracking, kein Verkauf"
+  },
+  "privacyNoTrackingBody": {
+    "message": "ReverseIMG verfolgt dich nicht, erstellt keine Profile und verkauft keine Daten."
+  },
+  "privacyPermissionsTitle": {
+    "message": "Berechtigungen"
+  },
+  "privacyPermissionsBody": {
+    "message": "ReverseIMG fordert nur menus, storage, activeTab und scripting an. menus fügt die Rechtsklick-Einträge hinzu, storage speichert Einstellungen und letzte Suchen, activeTab liest das Bild, auf das du ausdrücklich rechtsgeklickt hast, und scripting liest blob:-Bilddaten, nachdem du eine Suche gewählt hast. ReverseIMG fordert keine Host-Berechtigungen an und liest keine Seiten im Hintergrund."
+  },
+  "privacyDeclarationTitle": {
+    "message": "AMO-Datenerfassungserklärung"
+  },
+  "privacyDeclarationBody": {
+    "message": "Die Erweiterung deklariert searchTerms und websiteContent für Mozilla Add-ons. Diese Kategorien beschreiben Daten, die direkt an die gewählte Suchmaschine gesendet werden. Der Entwickler erhält und speichert sie nicht."
+  },
+  "privacyRetentionTitle": {
+    "message": "Aufbewahrung und Löschung"
+  },
+  "privacyRetentionBody": {
+    "message": "Letzte Suchen bleiben, bis du sie löschst oder die Erweiterung deinstallierst. Temporäre Bildeinträge werden nach der Upload-Übergabe oder nach 15 Minuten entfernt. Einstellungen bleiben bis zum Zurücksetzen oder Deinstallieren. Der Entwickler hat keine serverseitigen Daten zu löschen."
+  },
+  "privacyChildrenTitle": {
+    "message": "Kinder"
+  },
+  "privacyChildrenBody": {
+    "message": "ReverseIMG ist ein allgemeines Suchwerkzeug und richtet sich nicht an Kinder. Es sammelt wissentlich keine personenbezogenen Daten."
+  },
+  "privacyChangesTitle": {
+    "message": "Änderungen"
+  },
+  "privacyChangesBody": {
+    "message": "Wenn sich diese Richtlinie ändert, wird die aktualisierte Version im Projekt-Repository und auf der Datenschutzseite der Erweiterung mit einem neuen Datum veröffentlicht. Wesentliche Änderungen können auch in den Versionshinweisen genannt werden."
+  },
+  "privacyScopeTitle": {
+    "message": "Geltungsbereich"
+  },
+  "privacyScopeBody": {
+    "message": "Diese Richtlinie gilt für die Firefox-Erweiterung ReverseIMG und ihre mitgelieferten Seiten. Sie gilt nicht für die Websites von Google, Microsoft, Yandex, TinEye, SauceNAO, DuckDuckGo, Brave, Mozilla, GitHub oder anderen Dritten."
+  },
+  "privacyContactTitle": {
+    "message": "Kontakt"
+  },
+  "privacyContactBody": {
+    "message": "Fragen? Kontaktiere matthew auf GitHub: https://github.com/shuriv."
+  },
+  "privacyEnglishNote": {
+    "message": "Diese Seite ist eine Übersetzung. Die englische Datenschutzerklärung im Quell-Repository ist die maßgebliche Version und gilt bei Widersprüchen."
+  },
+  "privacyBack": {
+    "message": "Zurück zu den Einstellungen"
+  }
+}

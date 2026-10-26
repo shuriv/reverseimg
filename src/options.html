@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReverseIMG Settings</title>
+    <link rel="stylesheet" href="./styles/base.css" />
+  </head>
+  <body class="options-body">
+    <main class="page">
+      <header class="page-header">
+        <div class="brand">
+          <img class="brand-icon" src="/icons/icon-48.png" alt="" />
+          <div>
+            <h1 data-i18n="optionsTitle">ReverseIMG Settings</h1>
+            <p data-i18n="optionsSubtitle">
+              Choose how ReverseIMG searches and behaves.
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <div id="status" class="status hidden" role="status" aria-live="polite"></div>
+
+      <section class="card" aria-labelledby="reverse-heading">
+        <div class="card-heading">
+          <div>
+            <h2 id="reverse-heading" data-i18n="reverseEngines">Reverse image engines</h2>
+            <p data-i18n="reverseEnginesHelp">
+              These appear when you right-click an image.
+            </p>
+          </div>
+          <span class="order-hint" data-i18n="engineOrderHint">
+            Use the arrows to change order.
+          </span>
+        </div>
+        <div id="reverse-engines" class="engine-table"></div>
+      </section>
+
+      <section class="card" aria-labelledby="keyword-heading">
+        <div class="card-heading">
+          <div>
+            <h2 id="keyword-heading" data-i18n="keywordEngines">Keyword image engines</h2>
+            <p data-i18n="keywordEnginesHelp">
+              These appear in the popup search box.
+            </p>
+          </div>
+        </div>
+        <div id="keyword-engines" class="engine-table"></div>
+      </section>
+
+      <section class="card" aria-labelledby="behavior-heading">
+        <div class="card-heading">
+          <div>
+            <h2 id="behavior-heading" data-i18n="behavior">Behavior</h2>
+          </div>
+        </div>
+
+        <label class="setting-row" for="open-new-tab">
+          <span>
+            <strong data-i18n="openInNewTab">Open results in a new tab</strong>
+          </span>
+          <input id="open-new-tab" type="checkbox" />
+        </label>
+
+        <label class="setting-row" for="show-submenu">
+          <span>
+            <strong data-i18n="showContextSubmenu">Show the full engine submenu</strong>
+            <small data-i18n="showContextSubmenuHelp">
+              If off, only the default reverse engine appears.
+            </small>
+          </span>
+          <input id="show-submenu" type="checkbox" />
+        </label>
+
+        <label class="setting-row" for="remember-last">
+          <span>
+            <strong data-i18n="rememberLastEngine">Remember the last engine I used</strong>
+          </span>
+          <input id="remember-last" type="checkbox" />
+        </label>
+
+        <div class="setting-row select-row">
+          <label for="theme">
+            <strong data-i18n="theme">Theme</strong>
+          </label>
+          <select id="theme" class="compact-select">
+            <option value="system" data-i18n="themeSystem">Use system theme</option>
+            <option value="light" data-i18n="themeLight">Light</option>
+            <option value="dark" data-i18n="themeDark">Dark</option>
+          </select>
+        </div>
+
+        <div class="setting-row static-row">
+          <div>
+            <strong data-i18n="language">Language</strong>
+            <small data-i18n="languageHelp">
+              ReverseIMG uses Firefox's language. Change it in Firefox settings.
+            </small>
+          </div>
+          <span class="language-pill" data-i18n="languageFollowsFirefox"
+            >Follows Firefox</span
+          >
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="recent-heading">
+        <div class="card-heading">
+          <div>
+            <h2 id="recent-heading" data-i18n="recent">Recent searches</h2>
+            <p data-i18n="recentHelp">
+              Searches are stored only in this Firefox profile.
+            </p>
+          </div>
+          <button id="clear-recent" class="secondary small" type="button" data-i18n="clearRecentSearches">
+            Clear recent searches
+          </button>
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="backup-heading">
+        <div class="card-heading">
+          <div>
+            <h2 id="backup-heading" data-i18n="backup">Backup and reset</h2>
+            <p data-i18n="backupHelp">
+              Export a copy of your settings or import a previous backup.
+            </p>
+          </div>
+        </div>
+        <div class="button-row">
+          <button id="export-settings" class="secondary" type="button" data-i18n="exportSettings">
+            Export settings
+          </button>
+          <button id="import-settings" class="secondary" type="button" data-i18n="importSettings">
+            Import settings
+          </button>
+          <input id="import-file" class="hidden" type="file" accept="application/json,.json" />
+          <button id="reset-settings" class="danger-button" type="button" data-i18n="resetSettings">
+            Reset settings
+          </button>
+        </div>
+      </section>
+
+      <section class="card about-card" aria-labelledby="about-heading">
+        <div class="about-mark">
+          <img src="/icons/icon-96.png" alt="" />
+        </div>
+        <div class="about-copy">
+          <h2 id="about-heading" data-i18n="about">About</h2>
+          <p data-i18n="aboutText">ReverseIMG — created by matthew.</p>
+          <p class="muted" data-i18n="aboutDescription">
+            A privacy-friendly reverse image search and keyword image search tool for
+            Firefox.
+          </p>
+          <div class="about-links">
+            <a id="github-link" href="https://github.com/shuriv" target="_blank" rel="noreferrer" data-i18n="github">GitHub</a>
+            <a id="source-link" href="https://github.com/shuriv" target="_blank" rel="noreferrer" data-i18n="sourceCode">Source code</a>
+            <a id="privacy-link" href="privacy.html" data-i18n="privacyPolicy">Privacy policy</a>
+          </div>
+          <dl class="about-meta">
+            <div>
+              <dt data-i18n="version">Version</dt>
+              <dd id="about-version">0.1.0</dd>
+            </div>
+            <div>
+              <dt data-i18n="license">License</dt>
+              <dd>MIT</dd>
+            </div>
+          </dl>
+          <p class="trademark" data-i18n="trademark">
+            Engine names and trademarks belong to their respective owners.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./options/main.ts"></script>
+  </body>
+</html>

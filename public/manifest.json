@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "name": "ReverseIMG",
+  "short_name": "ReverseIMG",
+  "version": "0.1.0",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
+  "author": "matthew",
+  "developer": {
+    "name": "matthew",
+    "url": "https://github.com/shuriv"
+  },
+  "homepage_url": "https://github.com/shuriv",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "reverseimg@users.noreply.github.com",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": ["searchTerms", "websiteContent"]
+      }
+    }
+  },
+  "permissions": ["menus", "storage", "activeTab", "scripting"],
+  "background": {
+    "scripts": ["background.js"],
+    "type": "module"
+  },
+  "action": {
+    "default_title": "ReverseIMG",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action https://lens.google.com https://www.google.com https://www.bing.com https://yandex.com https://yandex.ru https://tineye.com https://saucenao.com"
+  }
+}

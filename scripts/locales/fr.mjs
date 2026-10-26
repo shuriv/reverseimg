@@ -1,0 +1,182 @@
+export default {
+  extensionDescription:
+    "Recherchez une image par recherche inversée ou par mots-clés avec Google Lens, Bing, Yandex, TinEye et SauceNAO.",
+  popupTitle: "ReverseIMG",
+  tagline: "Recherche d'images inversée pour Firefox",
+  modesLabel: "Modes de ReverseIMG",
+  optionsTitle: "Paramètres de ReverseIMG",
+  optionsSubtitle: "Choisissez le fonctionnement de ReverseIMG.",
+  tabFind: "Trouver des images",
+  tabReverse: "Recherche inversée",
+  findTitle: "Rechercher des images",
+  findPlaceholder: "Rechercher des images…",
+  searchButton: "Rechercher",
+  engineLabel: "Rechercher avec",
+  recentSearches: "Recherches récentes",
+  clearRecent: "Effacer",
+  noRecent: "Aucune recherche récente.",
+  removeRecent: "Supprimer la recherche",
+  reverseTitle: "Recherche d'images inversée",
+  modeUpload: "Importer une image",
+  modeUrl: "URL de l'image",
+  dropTitle: "Déposez une image ici",
+  dropSubtitle:
+    "ou cliquez pour parcourir, collez depuis le presse-papiers ou utilisez une URL d'image",
+  pasteHint: "Vous pouvez aussi appuyer sur Ctrl+V",
+  previewAlt: "Aperçu de l'image sélectionnée",
+  removeImage: "Supprimer l'image",
+  imageUrlLabel: "URL de l'image",
+  imageUrlPlaceholder: "https://example.com/photo.jpg",
+  urlOnly: "URL uniquement",
+  uploadsUpTo: "Jusqu'à $1 Mo",
+  searchWith: "Rechercher avec $1",
+  privacyNote: "Les images sont envoyées directement au moteur choisi.",
+  settingsButton: "Paramètres",
+  unsupportedFile: "Choisissez une image JPEG, PNG, WebP, GIF ou AVIF.",
+  fileTooLarge:
+    "Cette image est trop volumineuse. La taille maximale est de $1 Mo.",
+  invalidUrl: "Saisissez une URL d'image http ou https valide.",
+  enterQuery: "Saisissez un terme à rechercher.",
+  selectImageFirst: "Choisissez d'abord une image ou collez une URL d'image.",
+  uploadNotSupported:
+    "$1 n'accepte pas l'importation d'images. Essayez un autre moteur ou utilisez une URL d'image.",
+  searchFailed: "Impossible d'ouvrir la recherche. Réessayez.",
+  atLeastOneEngine: "Activez au moins un moteur.",
+  reverseEngines: "Moteurs de recherche inversée",
+  reverseEnginesHelp:
+    "Ils apparaissent quand vous faites un clic droit sur une image.",
+  engineOrderHint: "Utilisez les flèches pour changer l'ordre.",
+  keywordEngines: "Moteurs de recherche par mots-clés",
+  keywordEnginesHelp:
+    "Ils apparaissent dans le champ de recherche de la fenêtre contextuelle.",
+  behavior: "Comportement",
+  openInNewTab: "Ouvrir les résultats dans un nouvel onglet",
+  showContextSubmenu: "Afficher le sous-menu complet des moteurs",
+  showContextSubmenuHelp:
+    "Si désactivé, seul le moteur de recherche inversée par défaut apparaît.",
+  rememberLastEngine: "Mémoriser le dernier moteur utilisé",
+  theme: "Thème",
+  themeSystem: "Utiliser le thème du système",
+  themeLight: "Clair",
+  themeDark: "Sombre",
+  language: "Langue",
+  languageHelp:
+    "ReverseIMG utilise la langue de Firefox. Modifiez-la dans les paramètres de Firefox.",
+  languageFollowsFirefox: "Suit Firefox",
+  recent: "Recherches récentes",
+  recentHelp: "Les recherches sont stockées uniquement dans ce profil Firefox.",
+  clearRecentSearches: "Effacer les recherches récentes",
+  recentCleared: "Recherches récentes effacées.",
+  backup: "Sauvegarde et réinitialisation",
+  backupHelp:
+    "Exportez une copie de vos paramètres ou importez une sauvegarde précédente.",
+  exportSettings: "Exporter les paramètres",
+  importSettings: "Importer les paramètres",
+  resetSettings: "Réinitialiser les paramètres",
+  resetConfirm: "Réinitialiser tous les paramètres à leurs valeurs par défaut ?",
+  resetDone: "Paramètres réinitialisés.",
+  importDone: "Paramètres importés.",
+  importFailed:
+    "Ce fichier n'est pas un fichier de paramètres ReverseIMG valide.",
+  saved: "Enregistré.",
+  saveFailed: "Impossible d'enregistrer les paramètres. Réessayez.",
+  loadFailed: "Impossible de charger les paramètres. Rouvrez cette page.",
+  about: "À propos",
+  aboutText: "ReverseIMG — créé par matthew.",
+  aboutDescription:
+    "Un outil de recherche d'images inversée et par mots-clés respectueux de la vie privée pour Firefox.",
+  github: "GitHub",
+  sourceCode: "Code source",
+  privacyPolicy: "Politique de confidentialité",
+  version: "Version",
+  license: "Licence",
+  trademark:
+    "Les noms et marques des moteurs appartiennent à leurs propriétaires respectifs.",
+  defaultEngine: "Par défaut",
+  enabled: "Activé",
+  moveUp: "Monter",
+  moveDown: "Descendre",
+  menuSearchImage: "Rechercher l'image avec $1",
+  menuSearchImageWith: "Rechercher l'image avec…",
+  menuSearchSelection: "Rechercher des images à partir du texte sélectionné",
+  uploadPreparing: "Préparation de votre image…",
+  uploadWait: "Cela peut prendre quelques secondes.",
+  uploadTitle: "Envoi vers $1…",
+  uploadSending: "Envoi de votre image vers $1…",
+  uploadExpiredTitle: "Cette image a expiré",
+  uploadExpiredBody: "Fermez cet onglet et choisissez à nouveau l'image.",
+  uploadMissingTitle: "Image introuvable",
+  uploadMissingBody: "Fermez cet onglet et réessayez.",
+  uploadUnsupportedTitle: "Ce moteur n'accepte pas les importations",
+  uploadUnsupportedBody:
+    "$1 peut rechercher des URL d'images, mais n'accepte pas de fichier importé. Essayez Google Lens ou Bing, ou collez une URL d'image.",
+  uploadTooLargeTitle: "Image trop volumineuse",
+  uploadTooLargeBody: "La taille maximale pour $1 est de $2 Mo.",
+  uploadFailedTitle: "Impossible de lancer la recherche",
+  uploadFailedBody:
+    "Ouvrez $1 et importez l'image, ou essayez un autre moteur.",
+  uploadOpenEngine: "Ouvrir $1",
+  uploadBack: "Retour",
+  uploadSentTitle: "Recherche envoyée",
+  uploadSentBody:
+    "Vous pouvez revenir à ReverseIMG ou rouvrir le moteur.",
+  errorTitle: "Une erreur est survenue",
+  errorHelp: "ReverseIMG n'a pas pu lancer cette recherche.",
+  errorUnknown: "Fermez cet onglet et réessayez.",
+  errorNoImageTitle: "Aucune image trouvée",
+  errorNoImageBody:
+    "ReverseIMG n'a pas pu lire cette image. Essayez un clic droit sur une photo normale, ou enregistrez l'image et importez-la depuis la fenêtre contextuelle.",
+  errorBlobTitle: "Impossible de lire cette image",
+  errorBlobBody:
+    "Firefox a bloqué l'accès à cette image. Enregistrez-la et importez-la depuis la fenêtre contextuelle ReverseIMG.",
+  errorUnsupportedTitle: "Ce type d'image n'est pas pris en charge",
+  errorUnsupportedBody:
+    "Enregistrez l'image et importez-la au format JPEG, PNG, WebP, GIF ou AVIF.",
+  errorNoEngineTitle: "Moteur de recherche indisponible",
+  errorNoEngineBody:
+    "Ce moteur n'est pas activé dans les paramètres de ReverseIMG.",
+  errorNoUploadTitle: "Importation indisponible",
+  errorNoUploadBody:
+    "$1 peut rechercher des images par URL, mais n'accepte pas d'image importée. Ouvrez le moteur et collez l'URL de l'image, ou essayez Google Lens ou Bing.",
+  errorOpenSettings: "Ouvrir les paramètres",
+  errorOpenEngine: "Ouvrir $1",
+  errorCloseTab: "Fermer l'onglet",
+  privacyTitle: "Politique de confidentialité",
+  privacyIntro: "ReverseIMG est conçu pour garder vos recherches privées.",
+  privacyDataTitle: "Ce que ReverseIMG collecte",
+  privacyDataBody:
+    "Rien. ReverseIMG n'a ni compte, ni analyse, ni publicité, ni serveur développeur.",
+  privacyLocalTitle: "Ce qui reste sur votre appareil",
+  privacyLocalBody:
+    "Les paramètres et les recherches récentes restent dans le stockage local de Firefox. Les données d'image temporaires restent dans IndexedDB pendant 15 minutes maximum et sont supprimées automatiquement.",
+  privacyThirdPartyTitle: "Où vont vos recherches",
+  privacyThirdPartyBody:
+    "Lorsque vous lancez une recherche, votre image ou requête est envoyée directement au moteur choisi. La politique de confidentialité de ce moteur s'applique.",
+  privacyNoTrackingTitle: "Ni suivi ni vente",
+  privacyNoTrackingBody:
+    "ReverseIMG ne vous suit pas, ne vous profile pas et ne vend pas de données.",
+  privacyPermissionsTitle: "Autorisations",
+  privacyPermissionsBody:
+    "ReverseIMG demande uniquement menus, storage, activeTab et scripting. menus ajoute les éléments du clic droit, storage enregistre vos paramètres et recherches récentes, activeTab lit l'image sur laquelle vous avez explicitement cliqué, et scripting lit les données d'image blob: après le choix d'une recherche. ReverseIMG ne demande pas d'autorisation d'accès aux sites et ne lit pas les pages en arrière-plan.",
+  privacyDeclarationTitle: "Déclaration de collecte de données AMO",
+  privacyDeclarationBody:
+    "L'extension déclare searchTerms et websiteContent à Mozilla Add-ons. Ces catégories décrivent les données envoyées directement au moteur choisi. Le développeur ne les reçoit ni ne les conserve.",
+  privacyRetentionTitle: "Conservation et suppression",
+  privacyRetentionBody:
+    "Les recherches récentes restent jusqu'à ce que vous les effaciez ou désinstalliez l'extension. Les entrées d'images temporaires sont supprimées après le transfert d'importation ou après 15 minutes. Les paramètres restent jusqu'à leur réinitialisation ou la désinstallation. Le développeur n'a aucune donnée côté serveur à supprimer.",
+  privacyChildrenTitle: "Enfants",
+  privacyChildrenBody:
+    "ReverseIMG est un utilitaire de recherche généraliste qui ne s'adresse pas aux enfants. Il ne collecte pas sciemment de données personnelles.",
+  privacyChangesTitle: "Modifications",
+  privacyChangesBody:
+    "Si cette politique change, la version mise à jour sera publiée dans le dépôt du projet et sur la page de confidentialité de l'extension, avec une nouvelle date. Les changements importants pourront aussi être signalés dans les notes de version.",
+  privacyScopeTitle: "Champ d'application",
+  privacyScopeBody:
+    "Cette politique s'applique à l'extension Firefox ReverseIMG et à ses pages intégrées. Elle ne s'applique pas aux sites de Google, Microsoft, Yandex, TinEye, SauceNAO, DuckDuckGo, Brave, Mozilla, GitHub ni à aucun autre tiers.",
+  privacyContactTitle: "Contact",
+  privacyContactBody:
+    "Des questions ? Contactez matthew sur GitHub : https://github.com/shuriv.",
+  privacyEnglishNote:
+    "Cette page est une traduction. La politique de confidentialité en anglais du dépôt source est la version de référence et prévaut en cas de conflit.",
+  privacyBack: "Retour aux paramètres"
+};

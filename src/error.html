@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReverseIMG</title>
+    <link rel="stylesheet" href="./styles/base.css" />
+  </head>
+  <body class="page-body">
+    <main class="page narrow">
+      <header class="page-header centered">
+        <img class="brand-icon" src="/icons/icon-48.png" alt="" />
+        <div>
+          <h1 data-i18n="errorTitle">Something went wrong</h1>
+          <p data-i18n="errorHelp">ReverseIMG could not start that search.</p>
+        </div>
+      </header>
+
+      <section class="card status-card" aria-live="polite">
+        <div class="error-mark" aria-hidden="true">!</div>
+        <h2 id="error-title" data-i18n="errorTitle">Something went wrong</h2>
+        <p id="error-body"></p>
+        <div id="actions" class="actions"></div>
+      </section>
+    </main>
+    <script type="module" src="./error/main.ts"></script>
+  </body>
+</html>
